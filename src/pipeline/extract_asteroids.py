@@ -5,6 +5,9 @@ Saved responses omit navigation links that may contain API keys.
 """
 
 import argparse
+import random
+import re
+import socket
 import fcntl
 import getpass
 import hashlib
@@ -55,8 +58,11 @@ def split_date_range(start, end, window_days=7):
         current = last + timedelta(days=1)
 
 
+API_KEY_IN_URL = re.compile(r"(api_key=)[^&\"'\s]+", re.IGNORECASE)
+
+
 def remove_links(value):
-    """Remove navigation links while preserving scientific data."""
+    """Remove navigation links and API keys while preserving scientific data."""
     if isinstance(value, dict):
         return {
             key: remove_links(item)
@@ -66,6 +72,10 @@ def remove_links(value):
 
     if isinstance(value, list):
         return [remove_links(item) for item in value]
+
+    if isinstance(value, str):
+        # NASA echoes the key back inside some URLs (e.g. sentry_data)
+        return API_KEY_IN_URL.sub(r"\1REDACTED", value)
 
     return value
 
