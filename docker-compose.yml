@@ -1,0 +1,39 @@
+services:
+  # ---- Database ----
+  postgres:
+    image: postgres:16                 # official PostgreSQL image
+    environment:                       # values come from the .env file
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      # ":?" makes compose stop with a clear error if the password is missing
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+    ports:
+      - "5432:5432"                    # host:container. Change the left number if 5432 is already used
+    volumes:
+      - pgdata:/var/lib/postgresql/data   # keeps the data after the container stops
+    healthcheck:                       # tells compose when the DB is really ready
+      # "$$" so compose passes a literal $ to the container's shell
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s                     # check every 5 seconds
+      timeout: 3s                      # one check may take up to 3 seconds
+      retries: 10                      # mark "unhealthy" after 10 failed checks
+    restart: unless-stopped            # restart after a crash or reboot
+
+  # ---- Our pipeline ----
+  pipeline:
+    build: .                           # build the image from the Dockerfile above
+    profiles: ["pipeline"]             # not started by a plain "docker compose up"; run it on demand
+    depends_on:
+      postgres:
+        condition: service_healthy     # wait until the DB passes its healthcheck
+    env_file: .env                     # load NASA_API_KEY and POSTGRES_* from .env
+    environment:
+      POSTGRES_HOST: postgres          # inside Docker, the DB host is the service name
+      RAW_DIR: /app/data/raw           # tell config.py where to read/write raw JSON
+      SILVER_DIR: /app/data/silver     # ...and where to write the silver CSVs
+    volumes:
+      - ./data:/app/data               # share the local data/ folder with the container
+
+# Named volume managed by Docker (holds the PostgreSQL files)
+volumes:
+  pgdata:

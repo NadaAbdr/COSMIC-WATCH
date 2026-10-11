@@ -1,11 +1,12 @@
 -- sql/001_raw_schema.sql
 -- الطبقة الخام (raw): نخزن رد الـ API كما هو بدون تعديل.
 -- الملف آمن للتشغيل أكثر من مرة (IF NOT EXISTS).
-
+-- يمنع تكرار رد لنفس نطاق التواريخ بالضبط (مثلاً 1 إلى 7 أكتوبر مرتين). المرة الثانية تستبدل الصف.
+-- ما يمنع تكرار الحدث لو النطاقات تتداخل (مثلاً 1-7 ثم 5-11). نفس الاقتراب يظهر في الرداين.
 CREATE SCHEMA IF NOT EXISTS raw;
 
 -- 1) صف لكل رد feed (نطاق تواريخ واحد)
-CREATE TABLE IF NOT EXISTS raw.neo_feed_responses (
+CREATE TABLE IF NOT EXISTS raw.neo_feed_responses ( --ردود الـ API (الاقتراب حسب التواريخ)
     id          BIGSERIAL PRIMARY KEY,
     start_date  DATE        NOT NULL,
     end_date    DATE        NOT NULL,
@@ -17,14 +18,14 @@ CREATE TABLE IF NOT EXISTS raw.neo_feed_responses (
 );
 
 -- 2) صف لكل كويكب (تفاصيل lookup)
-CREATE TABLE IF NOT EXISTS raw.neo_lookup_responses (
+CREATE TABLE IF NOT EXISTS raw.neo_lookup_responses ( -- ردود الـ API (تفاصيل الكويكبات)
     asteroid_id TEXT        PRIMARY KEY,
     payload     JSONB       NOT NULL,
     fetched_at  TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 
 -- 3) صف لكل محاولة سحب (نجحت أو فشلت)
-CREATE TABLE IF NOT EXISTS raw.ingestion_log (
+CREATE TABLE IF NOT EXISTS raw.ingestion_log ( -- 	سجل الـ ingestion (نجحت أو فشلت كل محاولة سحب)
     id            BIGSERIAL PRIMARY KEY,
     endpoint      TEXT        NOT NULL,
     start_date    DATE,
