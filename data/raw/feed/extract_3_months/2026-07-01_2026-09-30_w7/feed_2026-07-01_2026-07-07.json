@@ -1,0 +1,2421 @@
+{
+  "element_count": 32,
+  "near_earth_objects": {
+    "2026-07-05": [
+      {
+        "absolute_magnitude_h": 19.82,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-05",
+            "close_approach_date_full": "2026-Jul-05 19:04",
+            "epoch_date_close_approach": 1783278240000,
+            "miss_distance": {
+              "astronomical": "0.1711025306",
+              "kilometers": "25596574.129369822",
+              "lunar": "66.5588844034",
+              "miles": "15904973.6405626636"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "22718.8037080345",
+              "kilometers_per_second": "6.3107788078",
+              "miles_per_hour": "14116.5811151396"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 2118.4832277896,
+            "estimated_diameter_min": 947.4145013062
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.6457136672,
+            "estimated_diameter_min": 0.2887719308
+          },
+          "meters": {
+            "estimated_diameter_max": 645.7136671674,
+            "estimated_diameter_min": 288.7719307574
+          },
+          "miles": {
+            "estimated_diameter_max": 0.4012277471,
+            "estimated_diameter_min": 0.1794345034
+          }
+        },
+        "id": "3388486",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2007 TO74)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3388486",
+        "neo_reference_id": "3388486",
+        "orbital_data": {
+          "aphelion_distance": "3.191582565501093",
+          "ascending_node_longitude": "48.82145503184056",
+          "data_arc_in_days": 6762,
+          "eccentricity": ".4772883927581765",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2007-10-15",
+          "inclination": "6.835719620764384",
+          "jupiter_tisserand_invariant": "3.533",
+          "last_observation_date": "2026-04-20",
+          "mean_anomaly": "285.9583905139691",
+          "mean_motion": ".3103793906610834",
+          "minimum_orbit_intersection": ".160668",
+          "observations_used": 61,
+          "orbit_class": {
+            "orbit_class_type": "AMO",
+            "orbit_class_description": "Near-Earth asteroid orbits similar to that of 1221 Amor",
+            "orbit_class_range": "1.017 AU < q (perihelion) < 1.3 AU"
+          },
+          "orbit_determination_date": "2026-04-20 06:20:31",
+          "orbit_id": "19",
+          "orbit_uncertainty": "0",
+          "orbital_period": "1159.87082529297",
+          "perihelion_argument": "249.4133679918084",
+          "perihelion_distance": "1.129283395602463",
+          "perihelion_time": "2461239.051951946062",
+          "semi_major_axis": "2.160432980551778"
+        }
+      },
+      {
+        "absolute_magnitude_h": 22.85,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-05",
+            "close_approach_date_full": "2026-Jul-05 18:00",
+            "epoch_date_close_approach": 1783274400000,
+            "miss_distance": {
+              "astronomical": "0.4654812263",
+              "kilometers": "69634999.979467981",
+              "lunar": "181.0721970307",
+              "miles": "43269182.5685848978"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "20326.6246121314",
+              "kilometers_per_second": "5.6462846145",
+              "miles_per_hour": "12630.1740541324"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 524.8377077252,
+            "estimated_diameter_min": 234.7145583258
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.1599705282,
+            "estimated_diameter_min": 0.0715409951
+          },
+          "meters": {
+            "estimated_diameter_max": 159.9705281956,
+            "estimated_diameter_min": 71.5409950884
+          },
+          "miles": {
+            "estimated_diameter_max": 0.0994010471,
+            "estimated_diameter_min": 0.0444534997
+          }
+        },
+        "id": "3565416",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2011 JZ10)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3565416",
+        "neo_reference_id": "3565416",
+        "orbital_data": {
+          "aphelion_distance": "2.916755384241072",
+          "ascending_node_longitude": "83.17587509025417",
+          "data_arc_in_days": 2214,
+          "eccentricity": ".4080800853191595",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2011-05-08",
+          "inclination": "9.364645403696352",
+          "jupiter_tisserand_invariant": "3.649",
+          "last_observation_date": "2017-05-30",
+          "mean_anomaly": "300.8296541065948",
+          "mean_motion": ".3305940979524126",
+          "minimum_orbit_intersection": ".208981",
+          "observations_used": 47,
+          "orbit_class": {
+            "orbit_class_type": "AMO",
+            "orbit_class_description": "Near-Earth asteroid orbits similar to that of 1221 Amor",
+            "orbit_class_range": "1.017 AU < q (perihelion) < 1.3 AU"
+          },
+          "orbit_determination_date": "2021-04-15 05:05:57",
+          "orbit_id": "14",
+          "orbit_uncertainty": "0",
+          "orbital_period": "1088.9486600932",
+          "perihelion_argument": "178.2741780812619",
+          "perihelion_distance": "1.226127417172814",
+          "perihelion_time": "2461179.481857994097",
+          "semi_major_axis": "2.071441400706943"
+        }
+      },
+      {
+        "absolute_magnitude_h": 27.7,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-05",
+            "close_approach_date_full": "2026-Jul-05 22:07",
+            "epoch_date_close_approach": 1783289220000,
+            "miss_distance": {
+              "astronomical": "0.2829334681",
+              "kilometers": "42326244.179472947",
+              "lunar": "110.0611190909",
+              "miles": "26300308.5716107886"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "29012.5215691789",
+              "kilometers_per_second": "8.0590337692",
+              "miles_per_hour": "18027.2526383601"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 56.2373735944,
+            "estimated_diameter_min": 25.1501180466
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.0171411509,
+            "estimated_diameter_min": 0.0076657557
+          },
+          "meters": {
+            "estimated_diameter_max": 17.1411509231,
+            "estimated_diameter_min": 7.6657557353
+          },
+          "miles": {
+            "estimated_diameter_max": 0.0106510141,
+            "estimated_diameter_min": 0.0047632783
+          }
+        },
+        "id": "3733933",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2015 VH65)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3733933",
+        "neo_reference_id": "3733933",
+        "orbital_data": {
+          "aphelion_distance": "1.046029582373579",
+          "ascending_node_longitude": "227.0812454589241",
+          "data_arc_in_days": 4,
+          "eccentricity": ".2283148057963276",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2015-11-08",
+          "inclination": "13.37783802137875",
+          "jupiter_tisserand_invariant": "6.876",
+          "last_observation_date": "2015-11-12",
+          "mean_anomaly": "139.7776731212265",
+          "mean_motion": "1.254159158079143",
+          "minimum_orbit_intersection": ".0140701",
+          "observations_used": 62,
+          "orbit_class": {
+            "orbit_class_type": "ATE",
+            "orbit_class_description": "Near-Earth asteroid orbits similar to that of 2062 Aten",
+            "orbit_class_range": "a (semi-major axis) < 1.0 AU; q (perihelion) > 0.983 AU"
+          },
+          "orbit_determination_date": "2021-04-15 15:13:29",
+          "orbit_id": "7",
+          "orbit_uncertainty": "6",
+          "orbital_period": "287.0449078818451",
+          "perihelion_argument": "330.2570570093717",
+          "perihelion_distance": ".6571650342465939",
+          "perihelion_time": "2460889.048696374941",
+          "semi_major_axis": ".8515973083100866"
+        }
+      },
+      {
+        "absolute_magnitude_h": 24.8,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-05",
+            "close_approach_date_full": "2026-Jul-05 00:39",
+            "epoch_date_close_approach": 1783211940000,
+            "miss_distance": {
+              "astronomical": "0.1407778967",
+              "kilometers": "21060073.489400029",
+              "lunar": "54.7626018163",
+              "miles": "13086122.8547332402"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "9286.5499958661",
+              "kilometers_per_second": "2.5795972211",
+              "miles_per_hour": "5770.3010238203"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 213.8085311752,
+            "estimated_diameter_min": 95.6180819754
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.0651688382,
+            "estimated_diameter_min": 0.0291443905
+          },
+          "meters": {
+            "estimated_diameter_max": 65.1688382168,
+            "estimated_diameter_min": 29.1443904535
+          },
+          "miles": {
+            "estimated_diameter_max": 0.0404940262,
+            "estimated_diameter_min": 0.018109479
+          }
+        },
+        "id": "3760536",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2016 TB18)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3760536",
+        "neo_reference_id": "3760536",
+        "orbital_data": {
+          "aphelion_distance": "1.168269204071575",
+          "ascending_node_longitude": "190.292490297563",
+          "data_arc_in_days": 196,
+          "eccentricity": ".0842984977365558",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2016-10-07",
+          "inclination": "1.527658700700204",
+          "jupiter_tisserand_invariant": "5.736",
+          "last_observation_date": "2017-04-21",
+          "mean_anomaly": "303.4835188198992",
+          "mean_motion": ".881278073654851",
+          "minimum_orbit_intersection": ".0106304",
+          "observations_used": 99,
+          "orbit_class": {
+            "orbit_class_type": "APO",
+            "orbit_class_description": "Near-Earth asteroid orbits which cross the Earth’s orbit similar to that of 1862 Apollo",
+            "orbit_class_range": "a (semi-major axis) > 1.0 AU; q (perihelion) < 1.017 AU"
+          },
+          "orbit_determination_date": "2021-04-15 17:49:06",
+          "orbit_id": "29",
+          "orbit_uncertainty": "3",
+          "orbital_period": "408.4976249403347",
+          "perihelion_argument": "305.751924885854",
+          "perihelion_distance": ".9866156482275025",
+          "perihelion_time": "2461064.630134255712",
+          "semi_major_axis": "1.077442426149539"
+        }
+      },
+      {
+        "absolute_magnitude_h": 26.41,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-05",
+            "close_approach_date_full": "2026-Jul-05 19:09",
+            "epoch_date_close_approach": 1783278540000,
+            "miss_distance": {
+              "astronomical": "0.3364944574",
+              "kilometers": "50338854.093845738",
+              "lunar": "130.8963439286",
+              "miles": "31279113.5021496644"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "66678.4388597094",
+              "kilometers_per_second": "18.5217885721",
+              "miles_per_hour": "41431.3888570233"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 101.8650094952,
+            "estimated_diameter_min": 45.555417152
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.0310484539,
+            "estimated_diameter_min": 0.0138852907
+          },
+          "meters": {
+            "estimated_diameter_max": 31.0484539006,
+            "estimated_diameter_min": 13.8852907036
+          },
+          "miles": {
+            "estimated_diameter_max": 0.0192926088,
+            "estimated_diameter_min": 0.008627917
+          }
+        },
+        "id": "3989139",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": true,
+        "name": "(2020 BW5)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3989139",
+        "neo_reference_id": "3989139",
+        "orbital_data": {
+          "aphelion_distance": "1.787189699901602",
+          "ascending_node_longitude": "277.0336414011358",
+          "data_arc_in_days": 16,
+          "eccentricity": ".3443897919731122",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2020-01-22",
+          "inclination": ".511308860338087",
+          "jupiter_tisserand_invariant": "4.863",
+          "last_observation_date": "2020-02-07",
+          "mean_anomaly": "248.1401563498784",
+          "mean_motion": ".643036913008151",
+          "minimum_orbit_intersection": ".00236876",
+          "observations_used": 73,
+          "orbit_class": {
+            "orbit_class_type": "APO",
+            "orbit_class_description": "Near-Earth asteroid orbits which cross the Earth’s orbit similar to that of 1862 Apollo",
+            "orbit_class_range": "a (semi-major axis) > 1.0 AU; q (perihelion) < 1.017 AU"
+          },
+          "orbit_determination_date": "2021-10-13 06:27:38",
+          "orbit_id": "16",
+          "orbit_uncertainty": "7",
+          "orbital_period": "559.8434440037141",
+          "perihelion_argument": "281.404933472681",
+          "perihelion_distance": ".8715476850031262",
+          "perihelion_time": "2461174.455555874447",
+          "semi_major_axis": "1.329368692452364"
+        },
+        "sentry_data": "http://api.nasa.gov/neo/rest/v1/neo/sentry/3989139?api_key=REDACTED"
+      }
+    ],
+    "2026-07-06": [
+      {
+        "absolute_magnitude_h": 19.08,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-06",
+            "close_approach_date_full": "2026-Jul-06 22:59",
+            "epoch_date_close_approach": 1783378740000,
+            "miss_distance": {
+              "astronomical": "0.3959327587",
+              "kilometers": "59230697.364743969",
+              "lunar": "154.0178431343",
+              "miles": "36804248.7067620122"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "79312.2300321422",
+              "kilometers_per_second": "22.0311750089",
+              "miles_per_hour": "49281.5353774719"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 2978.6880973444,
+            "estimated_diameter_min": 1332.1098138863
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.907904103,
+            "estimated_diameter_min": 0.4060270583
+          },
+          "meters": {
+            "estimated_diameter_max": 907.9041030176,
+            "estimated_diameter_min": 406.0270582797
+          },
+          "miles": {
+            "estimated_diameter_max": 0.5641452804,
+            "estimated_diameter_min": 0.2522934392
+          }
+        },
+        "id": "3384113",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2007 RT9)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3384113",
+        "neo_reference_id": "3384113",
+        "orbital_data": {
+          "aphelion_distance": "2.641953487374394",
+          "ascending_node_longitude": "163.9201698069606",
+          "data_arc_in_days": 5988,
+          "eccentricity": ".5857589678153059",
+          "epoch_osculation": "2460200.5",
+          "equinox": "J2000",
+          "first_observation_date": "2007-09-10",
+          "inclination": "21.28168865793164",
+          "jupiter_tisserand_invariant": "3.978",
+          "last_observation_date": "2024-02-01",
+          "mean_anomaly": "272.9648263699985",
+          "mean_motion": ".4583234590204661",
+          "minimum_orbit_intersection": ".23552",
+          "observations_used": 103,
+          "orbit_class": {
+            "orbit_class_type": "APO",
+            "orbit_class_description": "Near-Earth asteroid orbits which cross the Earth’s orbit similar to that of 1862 Apollo",
+            "orbit_class_range": "a (semi-major axis) > 1.0 AU; q (perihelion) < 1.017 AU"
+          },
+          "orbit_determination_date": "2024-02-02 05:34:03",
+          "orbit_id": "28",
+          "orbit_uncertainty": "0",
+          "orbital_period": "785.4714676167698",
+          "perihelion_argument": "24.77290417803387",
+          "perihelion_distance": ".6901462087278495",
+          "perihelion_time": "2460390.399015459549",
+          "semi_major_axis": "1.666049848051122"
+        }
+      },
+      {
+        "absolute_magnitude_h": 19.85,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-06",
+            "close_approach_date_full": "2026-Jul-06 01:23",
+            "epoch_date_close_approach": 1783300980000,
+            "miss_distance": {
+              "astronomical": "0.4252112329",
+              "kilometers": "63610694.741913923",
+              "lunar": "165.4071695981",
+              "miles": "39525852.8744732174"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "67676.8276106579",
+              "kilometers_per_second": "18.7991187807",
+              "miles_per_hour": "42051.7488006335"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 2089.4165482227,
+            "estimated_diameter_min": 934.4154870278
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.6368541435,
+            "estimated_diameter_min": 0.2848098313
+          },
+          "meters": {
+            "estimated_diameter_max": 636.8541435189,
+            "estimated_diameter_min": 284.8098313322
+          },
+          "miles": {
+            "estimated_diameter_max": 0.395722696,
+            "estimated_diameter_min": 0.1769725697
+          }
+        },
+        "id": "3414391",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2008 MG1)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3414391",
+        "neo_reference_id": "3414391",
+        "orbital_data": {
+          "aphelion_distance": "1.427114618008631",
+          "ascending_node_longitude": "352.1267309956767",
+          "data_arc_in_days": 5864,
+          "eccentricity": ".822769936132509",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2008-06-27",
+          "inclination": "5.724541845025175",
+          "jupiter_tisserand_invariant": "7.085",
+          "last_observation_date": "2024-07-17",
+          "mean_anomaly": "224.9406124312072",
+          "mean_motion": "1.422700805171037",
+          "minimum_orbit_intersection": ".0736402",
+          "observations_used": 60,
+          "orbit_class": {
+            "orbit_class_type": "ATE",
+            "orbit_class_description": "Near-Earth asteroid orbits similar to that of 2062 Aten",
+            "orbit_class_range": "a (semi-major axis) < 1.0 AU; q (perihelion) > 0.983 AU"
+          },
+          "orbit_determination_date": "2024-07-21 05:47:18",
+          "orbit_id": "22",
+          "orbit_uncertainty": "0",
+          "orbital_period": "253.0398511700573",
+          "perihelion_argument": "109.1937748997416",
+          "perihelion_distance": ".1387600321259154",
+          "perihelion_time": "2461095.431687026462",
+          "semi_major_axis": ".7829373250672732"
+        }
+      }
+    ],
+    "2026-07-07": [
+      {
+        "absolute_magnitude_h": 20.28,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-07",
+            "close_approach_date_full": "2026-Jul-07 04:28",
+            "epoch_date_close_approach": 1783398480000,
+            "miss_distance": {
+              "astronomical": "0.4886670344",
+              "kilometers": "73103547.485456728",
+              "lunar": "190.0914763816",
+              "miles": "45424438.0482817264"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "15343.9994897045",
+              "kilometers_per_second": "4.2622220805",
+              "miles_per_hour": "9534.1645718111"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 1714.0560920828,
+            "estimated_diameter_min": 766.5491878289
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.5224442801,
+            "estimated_diameter_min": 0.233644185
+          },
+          "meters": {
+            "estimated_diameter_max": 522.4442801486,
+            "estimated_diameter_min": 233.6441849736
+          },
+          "miles": {
+            "estimated_diameter_max": 0.3246317248,
+            "estimated_diameter_min": 0.1451797209
+          }
+        },
+        "id": "2240320",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "240320 (2003 HS42)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=2240320",
+        "neo_reference_id": "2240320",
+        "orbital_data": {
+          "aphelion_distance": "1.635965142180723",
+          "ascending_node_longitude": "38.24051652345228",
+          "data_arc_in_days": 9294,
+          "eccentricity": ".1213355081292605",
+          "epoch_osculation": "2461200.5",
+          "equinox": "J2000",
+          "first_observation_date": "1998-09-22",
+          "inclination": "15.8221839317652",
+          "jupiter_tisserand_invariant": "4.578",
+          "last_observation_date": "2024-03-03",
+          "mean_anomaly": "34.69342802186407",
+          "mean_motion": ".5593019934076908",
+          "minimum_orbit_intersection": ".276425",
+          "observations_used": 177,
+          "orbit_class": {
+            "orbit_class_type": "AMO",
+            "orbit_class_description": "Near-Earth asteroid orbits similar to that of 1221 Amor",
+            "orbit_class_range": "1.017 AU < q (perihelion) < 1.3 AU"
+          },
+          "orbit_determination_date": "2024-03-04 04:48:25",
+          "orbit_id": "47",
+          "orbit_uncertainty": "0",
+          "orbital_period": "643.6594259330415",
+          "perihelion_argument": "192.3854407524157",
+          "perihelion_distance": "1.281921842259868",
+          "perihelion_time": "2461138.470133432771",
+          "semi_major_axis": "1.458943492220296"
+        }
+      },
+      {
+        "absolute_magnitude_h": 24.8,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-07",
+            "close_approach_date_full": "2026-Jul-07 12:45",
+            "epoch_date_close_approach": 1783428300000,
+            "miss_distance": {
+              "astronomical": "0.2838116223",
+              "kilometers": "42457614.177324501",
+              "lunar": "110.4027210747",
+              "miles": "26381938.1030640738"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "19031.9841085301",
+              "kilometers_per_second": "5.2866622524",
+              "miles_per_hour": "11825.7347923253"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 213.8085311752,
+            "estimated_diameter_min": 95.6180819754
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.0651688382,
+            "estimated_diameter_min": 0.0291443905
+          },
+          "meters": {
+            "estimated_diameter_max": 65.1688382168,
+            "estimated_diameter_min": 29.1443904535
+          },
+          "miles": {
+            "estimated_diameter_max": 0.0404940262,
+            "estimated_diameter_min": 0.018109479
+          }
+        },
+        "id": "3710914",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2015 DC1)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3710914",
+        "neo_reference_id": "3710914",
+        "orbital_data": {
+          "aphelion_distance": "1.269056710020732",
+          "ascending_node_longitude": "326.706089751622",
+          "data_arc_in_days": 36,
+          "eccentricity": ".1192613602234828",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2015-02-17",
+          "inclination": "10.61029385759684",
+          "jupiter_tisserand_invariant": "5.500",
+          "last_observation_date": "2015-03-25",
+          "mean_anomaly": "40.39512517149857",
+          "mean_motion": ".8163563887852385",
+          "minimum_orbit_intersection": ".0987502",
+          "observations_used": 16,
+          "orbit_class": {
+            "orbit_class_type": "APO",
+            "orbit_class_description": "Near-Earth asteroid orbits which cross the Earth’s orbit similar to that of 1862 Apollo",
+            "orbit_class_range": "a (semi-major axis) > 1.0 AU; q (perihelion) < 1.017 AU"
+          },
+          "orbit_determination_date": "2021-04-15 12:55:52",
+          "orbit_id": "9",
+          "orbit_uncertainty": "5",
+          "orbital_period": "440.9838704584529",
+          "perihelion_argument": "94.69659321543787",
+          "perihelion_distance": ".9986115131855791",
+          "perihelion_time": "2460951.017781539497",
+          "semi_major_axis": "1.133834111603156"
+        }
+      },
+      {
+        "absolute_magnitude_h": 28.3,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-07",
+            "close_approach_date_full": "2026-Jul-07 21:45",
+            "epoch_date_close_approach": 1783460700000,
+            "miss_distance": {
+              "astronomical": "0.3439579344",
+              "kilometers": "51455374.355839728",
+              "lunar": "133.7996364816",
+              "miles": "31972887.0222471264"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "23764.1225387847",
+              "kilometers_per_second": "6.6011451497",
+              "miles_per_hour": "14766.1015852799"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 42.6604104873,
+            "estimated_diameter_min": 19.0783155595
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.0130028927,
+            "estimated_diameter_min": 0.0058150704
+          },
+          "meters": {
+            "estimated_diameter_max": 13.0028927004,
+            "estimated_diameter_min": 5.8150703965
+          },
+          "miles": {
+            "estimated_diameter_max": 0.0080796204,
+            "estimated_diameter_min": 0.0036133161
+          }
+        },
+        "id": "3720898",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": true,
+        "name": "(2015 KG158)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3720898",
+        "neo_reference_id": "3720898",
+        "orbital_data": {
+          "aphelion_distance": "1.45368562589162",
+          "ascending_node_longitude": "53.95899533664578",
+          "data_arc_in_days": 4,
+          "eccentricity": ".2767937344870889",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2015-05-20",
+          "inclination": "2.234864560097384",
+          "jupiter_tisserand_invariant": "5.468",
+          "last_observation_date": "2015-05-24",
+          "mean_anomaly": "290.3634799341929",
+          "mean_motion": ".8112962039838078",
+          "minimum_orbit_intersection": ".000233544",
+          "observations_used": 16,
+          "orbit_class": {
+            "orbit_class_type": "APO",
+            "orbit_class_description": "Near-Earth asteroid orbits which cross the Earth’s orbit similar to that of 1862 Apollo",
+            "orbit_class_range": "a (semi-major axis) > 1.0 AU; q (perihelion) < 1.017 AU"
+          },
+          "orbit_determination_date": "2021-04-15 13:48:45",
+          "orbit_id": "7",
+          "orbit_uncertainty": "6",
+          "orbital_period": "443.7343577256341",
+          "perihelion_argument": "97.58333518148896",
+          "perihelion_distance": ".8234020298926427",
+          "perihelion_time": "2461086.333656960136",
+          "semi_major_axis": "1.138543827892131"
+        },
+        "sentry_data": "http://api.nasa.gov/neo/rest/v1/neo/sentry/3720898?api_key=REDACTED"
+      },
+      {
+        "absolute_magnitude_h": 24.22,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-07",
+            "close_approach_date_full": "2026-Jul-07 16:58",
+            "epoch_date_close_approach": 1783443480000,
+            "miss_distance": {
+              "astronomical": "0.2604726305",
+              "kilometers": "38966150.716097035",
+              "lunar": "101.3238532645",
+              "miles": "24212443.309067683"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "37299.059354871",
+              "kilometers_per_second": "10.3608498208",
+              "miles_per_hour": "23176.1849641419"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 279.2704790552,
+            "estimated_diameter_min": 124.8935550553
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.0851216393,
+            "estimated_diameter_min": 0.0380675544
+          },
+          "meters": {
+            "estimated_diameter_max": 85.1216392921,
+            "estimated_diameter_min": 38.0675543627
+          },
+          "miles": {
+            "estimated_diameter_max": 0.0528921181,
+            "estimated_diameter_min": 0.0236540743
+          }
+        },
+        "id": "3765610",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2016 XR1)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3765610",
+        "neo_reference_id": "3765610",
+        "orbital_data": {
+          "aphelion_distance": "1.306167406232873",
+          "ascending_node_longitude": "74.15525989262913",
+          "data_arc_in_days": 1828,
+          "eccentricity": ".128093791542748",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2016-12-04",
+          "inclination": "11.63223526643189",
+          "jupiter_tisserand_invariant": "5.410",
+          "last_observation_date": "2021-12-06",
+          "mean_anomaly": "128.2005231646053",
+          "mean_motion": ".7910858639653708",
+          "minimum_orbit_intersection": ".0957388",
+          "observations_used": 74,
+          "orbit_class": {
+            "orbit_class_type": "APO",
+            "orbit_class_description": "Near-Earth asteroid orbits which cross the Earth’s orbit similar to that of 1862 Apollo",
+            "orbit_class_range": "a (semi-major axis) > 1.0 AU; q (perihelion) < 1.017 AU"
+          },
+          "orbit_determination_date": "2021-12-07 04:50:25",
+          "orbit_id": "11",
+          "orbit_uncertainty": "1",
+          "orbital_period": "455.0707026864011",
+          "perihelion_argument": "286.5518260649355",
+          "perihelion_distance": "1.00953970256452",
+          "perihelion_time": "2460838.443605107552",
+          "semi_major_axis": "1.157853554398697"
+        }
+      }
+    ],
+    "2026-07-01": [
+      {
+        "absolute_magnitude_h": 21.35,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-01",
+            "close_approach_date_full": "2026-Jul-01 12:42",
+            "epoch_date_close_approach": 1782909720000,
+            "miss_distance": {
+              "astronomical": "0.1826896729",
+              "kilometers": "27329985.936836723",
+              "lunar": "71.0662827581",
+              "miles": "16982065.7922958574"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "62587.2977884667",
+              "kilometers_per_second": "17.3853604968",
+              "miles_per_hour": "38889.3128952836"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 1047.1888996988,
+            "estimated_diameter_min": 468.3171130019
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.3191831664,
+            "estimated_diameter_min": 0.1427430515
+          },
+          "meters": {
+            "estimated_diameter_max": 319.1831664143,
+            "estimated_diameter_min": 142.7430514752
+          },
+          "miles": {
+            "estimated_diameter_max": 0.1983311633,
+            "estimated_diameter_min": 0.0886963926
+          }
+        },
+        "id": "2441987",
+        "is_potentially_hazardous_asteroid": true,
+        "is_sentry_object": false,
+        "name": "441987 (2010 NY65)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=2441987",
+        "neo_reference_id": "2441987",
+        "orbital_data": {
+          "aphelion_distance": "1.375138867806224",
+          "ascending_node_longitude": "267.919405902854",
+          "data_arc_in_days": 5134,
+          "eccentricity": ".3701568601249387",
+          "epoch_osculation": "2461200.5",
+          "equinox": "J2000",
+          "first_observation_date": "2010-07-14",
+          "inclination": "11.54363911652526",
+          "jupiter_tisserand_invariant": "5.984",
+          "last_observation_date": "2024-08-03",
+          "mean_anomaly": "43.86283203983219",
+          "mean_motion": ".9802563673592437",
+          "minimum_orbit_intersection": ".0177844",
+          "observations_used": 999,
+          "orbit_class": {
+            "orbit_class_type": "APO",
+            "orbit_class_description": "Near-Earth asteroid orbits which cross the Earth’s orbit similar to that of 1862 Apollo",
+            "orbit_class_range": "a (semi-major axis) > 1.0 AU; q (perihelion) < 1.017 AU"
+          },
+          "orbit_determination_date": "2025-11-10 05:33:07",
+          "orbit_id": "185",
+          "orbit_uncertainty": "0",
+          "orbital_period": "367.2508661890358",
+          "perihelion_argument": "252.0951642457207",
+          "perihelion_distance": ".6321333034703273",
+          "perihelion_time": "2461155.753713721854",
+          "semi_major_axis": "1.003636085638275"
+        }
+      },
+      {
+        "absolute_magnitude_h": 24.26,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-01",
+            "close_approach_date_full": "2026-Jul-01 03:20",
+            "epoch_date_close_approach": 1782876000000,
+            "miss_distance": {
+              "astronomical": "0.4160672963",
+              "kilometers": "62242781.303138881",
+              "lunar": "161.8501782607",
+              "miles": "38675870.8778073178"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "23372.699945765",
+              "kilometers_per_second": "6.4924166516",
+              "miles_per_hour": "14522.8868079671"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 274.1732183587,
+            "estimated_diameter_min": 122.613990772
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.0835679943,
+            "estimated_diameter_min": 0.0373727432
+          },
+          "meters": {
+            "estimated_diameter_max": 83.5679942816,
+            "estimated_diameter_min": 37.3727431914
+          },
+          "miles": {
+            "estimated_diameter_max": 0.0519267282,
+            "estimated_diameter_min": 0.0232223388
+          }
+        },
+        "id": "3147315",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2003 BN4)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3147315",
+        "neo_reference_id": "3147315",
+        "orbital_data": {
+          "aphelion_distance": "1.488173570765817",
+          "ascending_node_longitude": "307.5013441370168",
+          "data_arc_in_days": 7356,
+          "eccentricity": ".1715727507551765",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2002-12-31",
+          "inclination": "5.588091267197692",
+          "jupiter_tisserand_invariant": "5.065",
+          "last_observation_date": "2023-02-20",
+          "mean_anomaly": "334.7734682719517",
+          "mean_motion": ".6884582138686365",
+          "minimum_orbit_intersection": ".0679394",
+          "observations_used": 114,
+          "orbit_class": {
+            "orbit_class_type": "AMO",
+            "orbit_class_description": "Near-Earth asteroid orbits similar to that of 1221 Amor",
+            "orbit_class_range": "1.017 AU < q (perihelion) < 1.3 AU"
+          },
+          "orbit_determination_date": "2024-01-07 05:29:10",
+          "orbit_id": "28",
+          "orbit_uncertainty": "0",
+          "orbital_period": "522.9075530627498",
+          "perihelion_argument": "193.4359380286847",
+          "perihelion_distance": "1.052297893437434",
+          "perihelion_time": "2461037.142066606038",
+          "semi_major_axis": "1.270235732101626"
+        }
+      },
+      {
+        "absolute_magnitude_h": 25.6,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-01",
+            "close_approach_date_full": "2026-Jul-01 12:48",
+            "epoch_date_close_approach": 1782910080000,
+            "miss_distance": {
+              "astronomical": "0.3595149893",
+              "kilometers": "53782676.632352791",
+              "lunar": "139.8513308377",
+              "miles": "33419005.5994628758"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "62969.1540293808",
+              "kilometers_per_second": "17.4914316748",
+              "miles_per_hour": "39126.5835134228"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 147.9193637137,
+            "estimated_diameter_min": 66.1515504905
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.0450858206,
+            "estimated_diameter_min": 0.0201629919
+          },
+          "meters": {
+            "estimated_diameter_max": 45.0858206172,
+            "estimated_diameter_min": 20.1629919443
+          },
+          "miles": {
+            "estimated_diameter_max": 0.0280150214,
+            "estimated_diameter_min": 0.0125286985
+          }
+        },
+        "id": "3266944",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2005 BG28)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3266944",
+        "neo_reference_id": "3266944",
+        "orbital_data": {
+          "aphelion_distance": "1.258749741848462",
+          "ascending_node_longitude": "313.4212156633364",
+          "data_arc_in_days": 6,
+          "eccentricity": ".2271466354106879",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2005-01-31",
+          "inclination": "6.132637192653078",
+          "jupiter_tisserand_invariant": "5.933",
+          "last_observation_date": "2005-02-06",
+          "mean_anomaly": "80.3205590555971",
+          "mean_motion": ".9487235335720472",
+          "minimum_orbit_intersection": ".00965724",
+          "observations_used": 35,
+          "orbit_class": {
+            "orbit_class_type": "APO",
+            "orbit_class_description": "Near-Earth asteroid orbits which cross the Earth’s orbit similar to that of 1862 Apollo",
+            "orbit_class_range": "a (semi-major axis) > 1.0 AU; q (perihelion) < 1.017 AU"
+          },
+          "orbit_determination_date": "2021-04-14 22:31:16",
+          "orbit_id": "11",
+          "orbit_uncertainty": "7",
+          "orbital_period": "379.4572256941502",
+          "perihelion_argument": "81.00586068556439",
+          "perihelion_distance": ".7927569086622939",
+          "perihelion_time": "2460915.838287484889",
+          "semi_major_axis": "1.025753325255378"
+        }
+      },
+      {
+        "absolute_magnitude_h": 21.24,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-01",
+            "close_approach_date_full": "2026-Jul-01 08:41",
+            "epoch_date_close_approach": 1782895260000,
+            "miss_distance": {
+              "astronomical": "0.0965430893",
+              "kilometers": "14442640.522499791",
+              "lunar": "37.5552617377",
+              "miles": "8974240.6796114758"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "40491.4864824526",
+              "kilometers_per_second": "11.247635134",
+              "miles_per_hour": "25159.8350312773"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 1101.602797174,
+            "estimated_diameter_min": 492.651747737
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.3357685218,
+            "estimated_diameter_min": 0.1501602479
+          },
+          "meters": {
+            "estimated_diameter_max": 335.768521834,
+            "estimated_diameter_min": 150.1602479051
+          },
+          "miles": {
+            "estimated_diameter_max": 0.2086368222,
+            "estimated_diameter_min": 0.0933052234
+          }
+        },
+        "id": "3283679",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2005 NE21)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3283679",
+        "neo_reference_id": "3283679",
+        "orbital_data": {
+          "aphelion_distance": "1.181020532630015",
+          "ascending_node_longitude": "289.6836111517694",
+          "data_arc_in_days": 5116,
+          "eccentricity": ".4964946951613179",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2005-07-07",
+          "inclination": "10.63290203489992",
+          "jupiter_tisserand_invariant": "7.258",
+          "last_observation_date": "2019-07-10",
+          "mean_anomaly": "171.3073414335963",
+          "mean_motion": "1.405823096867815",
+          "minimum_orbit_intersection": ".0556976",
+          "observations_used": 140,
+          "orbit_class": {
+            "orbit_class_type": "ATE",
+            "orbit_class_description": "Near-Earth asteroid orbits similar to that of 2062 Aten",
+            "orbit_class_range": "a (semi-major axis) < 1.0 AU; q (perihelion) > 0.983 AU"
+          },
+          "orbit_determination_date": "2023-12-16 06:17:24",
+          "orbit_id": "30",
+          "orbit_uncertainty": "1",
+          "orbital_period": "256.0777389431735",
+          "perihelion_argument": "194.7659582136597",
+          "perihelion_distance": ".3973619854619779",
+          "perihelion_time": "2460878.644453725885",
+          "semi_major_axis": ".7891912590459965"
+        }
+      },
+      {
+        "absolute_magnitude_h": 19.58,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-01",
+            "close_approach_date_full": "2026-Jul-01 18:18",
+            "epoch_date_close_approach": 1782929880000,
+            "miss_distance": {
+              "astronomical": "0.456473369",
+              "kilometers": "68287443.71412403",
+              "lunar": "177.568140541",
+              "miles": "42431849.932930414"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "55241.5252923234",
+              "kilometers_per_second": "15.3448681368",
+              "miles_per_hour": "34324.9355351106"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 2366.0560581578,
+            "estimated_diameter_min": 1058.1324369232
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.7211738634,
+            "estimated_diameter_min": 0.3225187565
+          },
+          "meters": {
+            "estimated_diameter_max": 721.1738634489,
+            "estimated_diameter_min": 322.5187564536
+          },
+          "miles": {
+            "estimated_diameter_max": 0.4481165247,
+            "estimated_diameter_min": 0.2004038022
+          }
+        },
+        "id": "3701679",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2014 XQ3)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3701679",
+        "neo_reference_id": "3701679",
+        "orbital_data": {
+          "aphelion_distance": "2.589146025198083",
+          "ascending_node_longitude": "62.4496986001771",
+          "data_arc_in_days": 2375,
+          "eccentricity": ".4489031894858095",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2014-12-06",
+          "inclination": "29.00928676960685",
+          "jupiter_tisserand_invariant": "3.828",
+          "last_observation_date": "2021-06-07",
+          "mean_anomaly": "236.098310080718",
+          "mean_motion": ".4125991312619407",
+          "minimum_orbit_intersection": ".162477",
+          "observations_used": 101,
+          "orbit_class": {
+            "orbit_class_type": "APO",
+            "orbit_class_description": "Near-Earth asteroid orbits which cross the Earth’s orbit similar to that of 1862 Apollo",
+            "orbit_class_range": "a (semi-major axis) > 1.0 AU; q (perihelion) < 1.017 AU"
+          },
+          "orbit_determination_date": "2021-10-26 05:52:34",
+          "orbit_id": "22",
+          "orbit_uncertainty": "1",
+          "orbital_period": "872.5175908609758",
+          "perihelion_argument": "296.695394505119",
+          "perihelion_distance": ".9847932745241099",
+          "perihelion_time": "2461300.795566644377",
+          "semi_major_axis": "1.786969649861096"
+        }
+      }
+    ],
+    "2026-07-02": [
+      {
+        "absolute_magnitude_h": 19.3,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-02",
+            "close_approach_date_full": "2026-Jul-02 08:17",
+            "epoch_date_close_approach": 1782980220000,
+            "miss_distance": {
+              "astronomical": "0.2579038478",
+              "kilometers": "38581866.295684186",
+              "lunar": "100.3245967942",
+              "miles": "23973660.0427503268"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "114414.2195893582",
+              "kilometers_per_second": "31.7817276637",
+              "miles_per_hour": "71092.5466109542"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 2691.6899315481,
+            "estimated_diameter_min": 1203.7603322587
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.8204270649,
+            "estimated_diameter_min": 0.3669061375
+          },
+          "meters": {
+            "estimated_diameter_max": 820.4270648822,
+            "estimated_diameter_min": 366.9061375314
+          },
+          "miles": {
+            "estimated_diameter_max": 0.5097895857,
+            "estimated_diameter_min": 0.2279848336
+          }
+        },
+        "id": "3184159",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2004 MW2)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3184159",
+        "neo_reference_id": "3184159",
+        "orbital_data": {
+          "aphelion_distance": "1.876390157797118",
+          "ascending_node_longitude": "96.12294844449849",
+          "data_arc_in_days": 5853,
+          "eccentricity": ".638337901741695",
+          "epoch_osculation": "2459600.5",
+          "equinox": "J2000",
+          "first_observation_date": "2004-06-20",
+          "inclination": "35.09824788703876",
+          "jupiter_tisserand_invariant": "5.134",
+          "last_observation_date": "2020-06-29",
+          "mean_anomaly": "175.7483916264297",
+          "mean_motion": ".8041268659132489",
+          "minimum_orbit_intersection": ".0725428",
+          "observations_used": 173,
+          "orbit_class": {
+            "orbit_class_type": "APO",
+            "orbit_class_description": "Near-Earth asteroid orbits which cross the Earth’s orbit similar to that of 1862 Apollo",
+            "orbit_class_range": "a (semi-major axis) > 1.0 AU; q (perihelion) < 1.017 AU"
+          },
+          "orbit_determination_date": "2021-04-14 22:15:09",
+          "orbit_id": "45",
+          "orbit_uncertainty": "0",
+          "orbital_period": "447.6905514046557",
+          "perihelion_argument": "50.17364962339128",
+          "perihelion_distance": ".4142119894184874",
+          "perihelion_time": "2459381.941960123006",
+          "semi_major_axis": "1.145301073607803"
+        }
+      },
+      {
+        "absolute_magnitude_h": 19.6,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-02",
+            "close_approach_date_full": "2026-Jul-02 19:48",
+            "epoch_date_close_approach": 1783021680000,
+            "miss_distance": {
+              "astronomical": "0.3869599301",
+              "kilometers": "57888381.318308887",
+              "lunar": "150.5274128089",
+              "miles": "35970172.1921491606"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "85956.3081231106",
+              "kilometers_per_second": "23.8767522564",
+              "miles_per_hour": "53409.907122385"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 2344.3639258298,
+            "estimated_diameter_min": 1048.4314204307
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.7145621017,
+            "estimated_diameter_min": 0.3195618867
+          },
+          "meters": {
+            "estimated_diameter_max": 714.5621017269,
+            "estimated_diameter_min": 319.5618867213
+          },
+          "miles": {
+            "estimated_diameter_max": 0.4440081677,
+            "estimated_diameter_min": 0.1985664891
+          }
+        },
+        "id": "3412893",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2008 KD6)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3412893",
+        "neo_reference_id": "3412893",
+        "orbital_data": {
+          "aphelion_distance": "1.890416196616904",
+          "ascending_node_longitude": "262.8120180523557",
+          "data_arc_in_days": 4408,
+          "eccentricity": ".4432098413031328",
+          "epoch_osculation": "2460000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2008-05-29",
+          "inclination": "24.14240932563986",
+          "jupiter_tisserand_invariant": "4.793",
+          "last_observation_date": "2020-06-23",
+          "mean_anomaly": "233.2214498648331",
+          "mean_motion": ".6574491255389303",
+          "minimum_orbit_intersection": ".129367",
+          "observations_used": 88,
+          "orbit_class": {
+            "orbit_class_type": "APO",
+            "orbit_class_description": "Near-Earth asteroid orbits which cross the Earth’s orbit similar to that of 1862 Apollo",
+            "orbit_class_range": "a (semi-major axis) > 1.0 AU; q (perihelion) < 1.017 AU"
+          },
+          "orbit_determination_date": "2021-04-15 01:42:32",
+          "orbit_id": "28",
+          "orbit_uncertainty": "0",
+          "orbital_period": "547.570885739482",
+          "perihelion_argument": "127.9023657300904",
+          "perihelion_distance": ".7293223091986749",
+          "perihelion_time": "2460193.334008306335",
+          "semi_major_axis": "1.30986925290779"
+        }
+      },
+      {
+        "absolute_magnitude_h": 25.85,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-02",
+            "close_approach_date_full": "2026-Jul-02 05:34",
+            "epoch_date_close_approach": 1782970440000,
+            "miss_distance": {
+              "astronomical": "0.4453594198",
+              "kilometers": "66624820.586515826",
+              "lunar": "173.2448143022",
+              "miles": "41398743.8272013588"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "68583.0178543446",
+              "kilometers_per_second": "19.0508382929",
+              "miles_per_hour": "42614.8201773287"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 131.833271678,
+            "estimated_diameter_min": 58.9576314336
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.0401827799,
+            "estimated_diameter_min": 0.0179702855
+          },
+          "meters": {
+            "estimated_diameter_max": 40.1827799216,
+            "estimated_diameter_min": 17.9702854859
+          },
+          "miles": {
+            "estimated_diameter_max": 0.0249684141,
+            "estimated_diameter_min": 0.0111662143
+          }
+        },
+        "id": "3836413",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2018 WE2)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3836413",
+        "neo_reference_id": "3836413",
+        "orbital_data": {
+          "aphelion_distance": "1.082692593609878",
+          "ascending_node_longitude": "247.2050674945045",
+          "data_arc_in_days": 6,
+          "eccentricity": ".3414358070338533",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2018-11-28",
+          "inclination": "23.08372425268755",
+          "jupiter_tisserand_invariant": "7.128",
+          "last_observation_date": "2018-12-04",
+          "mean_anomaly": "88.10206043026119",
+          "mean_motion": "1.359255713693475",
+          "minimum_orbit_intersection": ".041558",
+          "observations_used": 22,
+          "orbit_class": {
+            "orbit_class_type": "ATE",
+            "orbit_class_description": "Near-Earth asteroid orbits similar to that of 2062 Aten",
+            "orbit_class_range": "a (semi-major axis) < 1.0 AU; q (perihelion) > 0.983 AU"
+          },
+          "orbit_determination_date": "2022-09-07 05:50:16",
+          "orbit_id": "4",
+          "orbit_uncertainty": "7",
+          "orbital_period": "264.8508270910851",
+          "perihelion_argument": "335.3362107954769",
+          "perihelion_distance": ".5315368580459543",
+          "perihelion_time": "2460935.683601185046",
+          "semi_major_axis": ".8071147258279161"
+        }
+      },
+      {
+        "absolute_magnitude_h": 20.19,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-02",
+            "close_approach_date_full": "2026-Jul-02 03:48",
+            "epoch_date_close_approach": 1782964080000,
+            "miss_distance": {
+              "astronomical": "0.1560090204",
+              "kilometers": "23338617.152626548",
+              "lunar": "60.6875089356",
+              "miles": "14501944.2345524424"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "110130.1094445948",
+              "kilometers_per_second": "30.5916970679",
+              "miles_per_hour": "68430.5671712817"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 1786.5905397357,
+            "estimated_diameter_min": 798.9875789614
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.5445527791,
+            "estimated_diameter_min": 0.2435314063
+          },
+          "meters": {
+            "estimated_diameter_max": 544.5527790857,
+            "estimated_diameter_min": 243.5314062744
+          },
+          "miles": {
+            "estimated_diameter_max": 0.3383693049,
+            "estimated_diameter_min": 0.1513233534
+          }
+        },
+        "id": "3840128",
+        "is_potentially_hazardous_asteroid": true,
+        "is_sentry_object": false,
+        "name": "(2019 FH)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3840128",
+        "neo_reference_id": "3840128",
+        "orbital_data": {
+          "aphelion_distance": "2.710611042350506",
+          "ascending_node_longitude": "255.1551045958356",
+          "data_arc_in_days": 1941,
+          "eccentricity": ".7742179009424583",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2019-03-14",
+          "inclination": "3.855529924341563",
+          "jupiter_tisserand_invariant": "4.090",
+          "last_observation_date": "2024-07-06",
+          "mean_anomaly": "220.4112516344443",
+          "mean_motion": ".5219317351787061",
+          "minimum_orbit_intersection": ".0355364",
+          "observations_used": 198,
+          "orbit_class": {
+            "orbit_class_type": "APO",
+            "orbit_class_description": "Near-Earth asteroid orbits which cross the Earth’s orbit similar to that of 1862 Apollo",
+            "orbit_class_range": "a (semi-major axis) > 1.0 AU; q (perihelion) < 1.017 AU"
+          },
+          "orbit_determination_date": "2024-07-06 06:21:14",
+          "orbit_id": "31",
+          "orbit_uncertainty": "0",
+          "orbital_period": "689.7453742235818",
+          "perihelion_argument": "152.3477635093568",
+          "perihelion_distance": ".3449449194179317",
+          "perihelion_time": "2461267.946370774449",
+          "semi_major_axis": "1.527777980884219"
+        }
+      },
+      {
+        "absolute_magnitude_h": 21.86,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-02",
+            "close_approach_date_full": "2026-Jul-02 02:23",
+            "epoch_date_close_approach": 1782958980000,
+            "miss_distance": {
+              "astronomical": "0.4560969628",
+              "kilometers": "68231134.148349236",
+              "lunar": "177.4217185292",
+              "miles": "42396860.7912260168"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "21962.0697994409",
+              "kilometers_per_second": "6.1005749443",
+              "miles_per_hour": "13646.3760928804"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 827.9898824705,
+            "estimated_diameter_min": 370.2883323772
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.2523713081,
+            "estimated_diameter_min": 0.1128638801
+          },
+          "meters": {
+            "estimated_diameter_max": 252.3713081011,
+            "estimated_diameter_min": 112.8638800969
+          },
+          "miles": {
+            "estimated_diameter_max": 0.1568162121,
+            "estimated_diameter_min": 0.070130342
+          }
+        },
+        "id": "3842637",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2019 KW3)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3842637",
+        "neo_reference_id": "3842637",
+        "orbital_data": {
+          "aphelion_distance": "1.843957479791789",
+          "ascending_node_longitude": "256.9523134645287",
+          "data_arc_in_days": 88,
+          "eccentricity": ".279537391036387",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2019-05-01",
+          "inclination": "11.28830534616327",
+          "jupiter_tisserand_invariant": "4.602",
+          "last_observation_date": "2019-07-28",
+          "mean_anomaly": "296.4610474247482",
+          "mean_motion": ".5697143945933034",
+          "minimum_orbit_intersection": ".10634",
+          "observations_used": 107,
+          "orbit_class": {
+            "orbit_class_type": "AMO",
+            "orbit_class_description": "Near-Earth asteroid orbits similar to that of 1221 Amor",
+            "orbit_class_range": "1.017 AU < q (perihelion) < 1.3 AU"
+          },
+          "orbit_determination_date": "2024-07-09 05:52:31",
+          "orbit_id": "20",
+          "orbit_uncertainty": "4",
+          "orbital_period": "631.8955662986008",
+          "perihelion_argument": "300.44848739",
+          "perihelion_distance": "1.038267756780999",
+          "perihelion_time": "2461112.027728943219",
+          "semi_major_axis": "1.441112618286394"
+        }
+      },
+      {
+        "absolute_magnitude_h": 24.63,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-02",
+            "close_approach_date_full": "2026-Jul-02 14:38",
+            "epoch_date_close_approach": 1783003080000,
+            "miss_distance": {
+              "astronomical": "0.0516165094",
+              "kilometers": "7721719.863074978",
+              "lunar": "20.0788221566",
+              "miles": "4798054.2341835764"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "24621.5964738799",
+              "kilometers_per_second": "6.8393323539",
+              "miles_per_hour": "15298.9025423394"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 231.21980469,
+            "estimated_diameter_min": 103.4046402062
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.0704757942,
+            "estimated_diameter_min": 0.0315177333
+          },
+          "meters": {
+            "estimated_diameter_max": 70.4757942143,
+            "estimated_diameter_min": 31.5177333263
+          },
+          "miles": {
+            "estimated_diameter_max": 0.0437916147,
+            "estimated_diameter_min": 0.0195842055
+          }
+        },
+        "id": "3956451",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2019 YS3)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3956451",
+        "neo_reference_id": "3956451",
+        "orbital_data": {
+          "aphelion_distance": "1.180610080188145",
+          "ascending_node_longitude": "275.3185249756636",
+          "data_arc_in_days": 9,
+          "eccentricity": ".1689910838615595",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2019-12-28",
+          "inclination": "10.53447193688753",
+          "jupiter_tisserand_invariant": "6.006",
+          "last_observation_date": "2020-01-06",
+          "mean_anomaly": "214.361794794628",
+          "mean_motion": ".9710937109696384",
+          "minimum_orbit_intersection": ".0115515",
+          "observations_used": 104,
+          "orbit_class": {
+            "orbit_class_type": "APO",
+            "orbit_class_description": "Near-Earth asteroid orbits which cross the Earth’s orbit similar to that of 1862 Apollo",
+            "orbit_class_range": "a (semi-major axis) > 1.0 AU; q (perihelion) < 1.017 AU"
+          },
+          "orbit_determination_date": "2021-04-15 22:11:12",
+          "orbit_id": "11",
+          "orbit_uncertainty": "6",
+          "orbital_period": "370.7160245539429",
+          "perihelion_argument": "276.2539134725458",
+          "perihelion_distance": ".8392685938017438",
+          "perihelion_time": "2461150.473379046964",
+          "semi_major_axis": "1.009939336994944"
+        }
+      },
+      {
+        "absolute_magnitude_h": 19.25,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-02",
+            "close_approach_date_full": "2026-Jul-02 10:16",
+            "epoch_date_close_approach": 1782987360000,
+            "miss_distance": {
+              "astronomical": "0.4211508493",
+              "kilometers": "63003270.003970991",
+              "lunar": "163.8276803777",
+              "miles": "39148416.6442660358"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "61907.1076155402",
+              "kilometers_per_second": "17.1964187821",
+              "miles_per_hour": "38466.6691736672"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 2754.3874443459,
+            "estimated_diameter_min": 1231.7995123859
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.8395372662,
+            "estimated_diameter_min": 0.3754524794
+          },
+          "meters": {
+            "estimated_diameter_max": 839.5372661714,
+            "estimated_diameter_min": 375.4524793607
+          },
+          "miles": {
+            "estimated_diameter_max": 0.5216641106,
+            "estimated_diameter_min": 0.2332952826
+          }
+        },
+        "id": "54016711",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2020 GN3)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=54016711",
+        "neo_reference_id": "54016711",
+        "orbital_data": {
+          "aphelion_distance": "3.014772657744039",
+          "ascending_node_longitude": "17.05578591465666",
+          "data_arc_in_days": 3525,
+          "eccentricity": ".477694985853921",
+          "epoch_osculation": "2460600.5",
+          "equinox": "J2000",
+          "first_observation_date": "2014-04-23",
+          "inclination": "5.77569625133584",
+          "jupiter_tisserand_invariant": "3.645",
+          "last_observation_date": "2023-12-17",
+          "mean_anomaly": "140.8465261527754",
+          "mean_motion": ".3382201062793234",
+          "minimum_orbit_intersection": ".0903571",
+          "observations_used": 446,
+          "orbit_class": {
+            "orbit_class_type": "AMO",
+            "orbit_class_description": "Near-Earth asteroid orbits similar to that of 1221 Amor",
+            "orbit_class_range": "1.017 AU < q (perihelion) < 1.3 AU"
+          },
+          "orbit_determination_date": "2024-05-03 06:22:24",
+          "orbit_id": "83",
+          "orbit_uncertainty": "0",
+          "orbital_period": "1064.395620828909",
+          "perihelion_argument": "310.8594763803207",
+          "perihelion_distance": "1.06559939008",
+          "perihelion_time": "2460184.065484316726",
+          "semi_major_axis": "2.040186023912019"
+        }
+      }
+    ],
+    "2026-07-03": [
+      {
+        "absolute_magnitude_h": 19.19,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-03",
+            "close_approach_date_full": "2026-Jul-03 07:09",
+            "epoch_date_close_approach": 1783062540000,
+            "miss_distance": {
+              "astronomical": "0.3579287556",
+              "kilometers": "53545379.449510572",
+              "lunar": "139.2342859284",
+              "miles": "33271555.9673750136"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "78413.2846679311",
+              "kilometers_per_second": "21.7814679633",
+              "miles_per_hour": "48722.9656871375"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 2831.5551841425,
+            "estimated_diameter_min": 1266.3099747569
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.8630579925,
+            "estimated_diameter_min": 0.385971268
+          },
+          "meters": {
+            "estimated_diameter_max": 863.0579925088,
+            "estimated_diameter_min": 385.9712679548
+          },
+          "miles": {
+            "estimated_diameter_max": 0.5362792079,
+            "estimated_diameter_min": 0.2398313527
+          }
+        },
+        "id": "3720770",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2015 KJ157)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3720770",
+        "neo_reference_id": "3720770",
+        "orbital_data": {
+          "aphelion_distance": "1.641628848285932",
+          "ascending_node_longitude": "101.468800700966",
+          "data_arc_in_days": 7618,
+          "eccentricity": ".7374572338234251",
+          "epoch_osculation": "2460400.5",
+          "equinox": "J2000",
+          "first_observation_date": "2003-06-23",
+          "inclination": "36.89263727061564",
+          "jupiter_tisserand_invariant": "5.967",
+          "last_observation_date": "2024-05-01",
+          "mean_anomaly": "139.593830668222",
+          "mean_motion": "1.073155847268892",
+          "minimum_orbit_intersection": ".17086",
+          "observations_used": 206,
+          "orbit_class": {
+            "orbit_class_type": "ATE",
+            "orbit_class_description": "Near-Earth asteroid orbits similar to that of 2062 Aten",
+            "orbit_class_range": "a (semi-major axis) < 1.0 AU; q (perihelion) > 0.983 AU"
+          },
+          "orbit_determination_date": "2024-05-02 05:51:16",
+          "orbit_id": "41",
+          "orbit_uncertainty": "1",
+          "orbital_period": "335.4591981362028",
+          "perihelion_argument": "302.0676664731399",
+          "perihelion_distance": ".2480623813202041",
+          "perihelion_time": "2460270.422126386882",
+          "semi_major_axis": ".9448456148030681"
+        }
+      }
+    ],
+    "2026-07-04": [
+      {
+        "absolute_magnitude_h": 19.35,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-04",
+            "close_approach_date_full": "2026-Jul-04 19:53",
+            "epoch_date_close_approach": 1783194780000,
+            "miss_distance": {
+              "astronomical": "0.0232415738",
+              "kilometers": "3476889.935927806",
+              "lunar": "9.0409722082",
+              "miles": "2160439.2252874828"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "60352.7956815265",
+              "kilometers_per_second": "16.7646654671",
+              "miles_per_hour": "37500.8801833352"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 2630.4195883808,
+            "estimated_diameter_min": 1176.3594017933
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.8017518649,
+            "estimated_diameter_min": 0.3585543342
+          },
+          "meters": {
+            "estimated_diameter_max": 801.7518648824,
+            "estimated_diameter_min": 358.5543341929
+          },
+          "miles": {
+            "estimated_diameter_max": 0.498185358,
+            "estimated_diameter_min": 0.2227952652
+          }
+        },
+        "id": "2523808",
+        "is_potentially_hazardous_asteroid": true,
+        "is_sentry_object": false,
+        "name": "523808 (2007 ML24)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=2523808",
+        "neo_reference_id": "2523808",
+        "orbital_data": {
+          "aphelion_distance": "1.030835777549533",
+          "ascending_node_longitude": "281.8671379470788",
+          "data_arc_in_days": 6983,
+          "eccentricity": ".3584535209500433",
+          "epoch_osculation": "2461200.5",
+          "equinox": "J2000",
+          "first_observation_date": "2007-06-21",
+          "inclination": "33.43483306854344",
+          "jupiter_tisserand_invariant": "7.452",
+          "last_observation_date": "2026-08-03",
+          "mean_anomaly": "101.7482840205974",
+          "mean_motion": "1.491032207037246",
+          "minimum_orbit_intersection": ".0232282",
+          "observations_used": 335,
+          "orbit_class": {
+            "orbit_class_type": "ATE",
+            "orbit_class_description": "Near-Earth asteroid orbits similar to that of 2062 Aten",
+            "orbit_class_range": "a (semi-major axis) < 1.0 AU; q (perihelion) > 0.983 AU"
+          },
+          "orbit_determination_date": "2026-08-04 06:20:22",
+          "orbit_id": "57",
+          "orbit_uncertainty": "0",
+          "orbital_period": "241.443476741081",
+          "perihelion_argument": "201.5084300841146",
+          "perihelion_distance": ".4868249471672191",
+          "perihelion_time": "2461132.259834871189",
+          "semi_major_axis": ".7588303623583762"
+        }
+      },
+      {
+        "absolute_magnitude_h": 21.73,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-04",
+            "close_approach_date_full": "2026-Jul-04 16:33",
+            "epoch_date_close_approach": 1783182780000,
+            "miss_distance": {
+              "astronomical": "0.3771608939",
+              "kilometers": "56422466.374735993",
+              "lunar": "146.7155877271",
+              "miles": "35059294.8841549834"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "79717.9414334029",
+              "kilometers_per_second": "22.1438726204",
+              "miles_per_hour": "49533.6286645497"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 879.0731796244,
+            "estimated_diameter_min": 393.1334773674
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.2679414966,
+            "estimated_diameter_min": 0.1198270801
+          },
+          "meters": {
+            "estimated_diameter_max": 267.9414965754,
+            "estimated_diameter_min": 119.8270800671
+          },
+          "miles": {
+            "estimated_diameter_max": 0.1664910757,
+            "estimated_diameter_min": 0.0744570726
+          }
+        },
+        "id": "3283218",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2005 MF5)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3283218",
+        "neo_reference_id": "3283218",
+        "orbital_data": {
+          "aphelion_distance": "1.11062858232198",
+          "ascending_node_longitude": "98.03485588831468",
+          "data_arc_in_days": 6586,
+          "eccentricity": ".3817890721942355",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2005-06-27",
+          "inclination": "29.52045741917893",
+          "jupiter_tisserand_invariant": "7.106",
+          "last_observation_date": "2023-07-09",
+          "mean_anomaly": "299.4362067127435",
+          "mean_motion": "1.367771139145255",
+          "minimum_orbit_intersection": ".0791524",
+          "observations_used": 95,
+          "orbit_class": {
+            "orbit_class_type": "ATE",
+            "orbit_class_description": "Near-Earth asteroid orbits similar to that of 2062 Aten",
+            "orbit_class_range": "a (semi-major axis) < 1.0 AU; q (perihelion) > 0.983 AU"
+          },
+          "orbit_determination_date": "2023-07-09 09:54:46",
+          "orbit_id": "21",
+          "orbit_uncertainty": "1",
+          "orbital_period": "263.2019273523863",
+          "perihelion_argument": "349.7582292986536",
+          "perihelion_distance": ".4968940196021162",
+          "perihelion_time": "2461044.779186447160",
+          "semi_major_axis": ".8037613009620482"
+        }
+      },
+      {
+        "absolute_magnitude_h": 21.03,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-04",
+            "close_approach_date_full": "2026-Jul-04 01:54",
+            "epoch_date_close_approach": 1783130040000,
+            "miss_distance": {
+              "astronomical": "0.248543881",
+              "kilometers": "37181635.19913347",
+              "lunar": "96.683569709",
+              "miles": "23103596.784723086"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "55867.8202854854",
+              "kilometers_per_second": "15.5188389682",
+              "miles_per_hour": "34714.0908879451"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 1213.458784588,
+            "estimated_diameter_min": 542.6752660466
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.3698622257,
+            "estimated_diameter_min": 0.1654074158
+          },
+          "meters": {
+            "estimated_diameter_max": 369.8622257068,
+            "estimated_diameter_min": 165.407415798
+          },
+          "miles": {
+            "estimated_diameter_max": 0.229821661,
+            "estimated_diameter_min": 0.1027793714
+          }
+        },
+        "id": "3283950",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2005 NJ63)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3283950",
+        "neo_reference_id": "3283950",
+        "orbital_data": {
+          "aphelion_distance": "1.236309944683436",
+          "ascending_node_longitude": "120.8348749348493",
+          "data_arc_in_days": 6219,
+          "eccentricity": ".4223044325290966",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2005-07-12",
+          "inclination": "26.5492351158263",
+          "jupiter_tisserand_invariant": "6.649",
+          "last_observation_date": "2022-07-22",
+          "mean_anomaly": "210.3491347800325",
+          "mean_motion": "1.216191251789057",
+          "minimum_orbit_intersection": ".216876",
+          "observations_used": 88,
+          "orbit_class": {
+            "orbit_class_type": "ATE",
+            "orbit_class_description": "Near-Earth asteroid orbits similar to that of 2062 Aten",
+            "orbit_class_range": "a (semi-major axis) < 1.0 AU; q (perihelion) > 0.983 AU"
+          },
+          "orbit_determination_date": "2022-10-20 07:05:03",
+          "orbit_id": "28",
+          "orbit_uncertainty": "0",
+          "orbital_period": "296.0060759115217",
+          "perihelion_argument": "1.740319765524319",
+          "perihelion_distance": ".5021504248523166",
+          "perihelion_time": "2461123.548792695907",
+          "semi_major_axis": ".8692301847678765"
+        }
+      },
+      {
+        "absolute_magnitude_h": 21.46,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-04",
+            "close_approach_date_full": "2026-Jul-04 01:55",
+            "epoch_date_close_approach": 1783130100000,
+            "miss_distance": {
+              "astronomical": "0.3467619902",
+              "kilometers": "51874855.130880874",
+              "lunar": "134.8904141878",
+              "miles": "32233540.2892051012"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "34563.1830023729",
+              "kilometers_per_second": "9.6008841673",
+              "miles_per_hour": "21476.2177938911"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 995.4627879173,
+            "estimated_diameter_min": 445.1844925709
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.303417048,
+            "estimated_diameter_min": 0.135692229
+          },
+          "meters": {
+            "estimated_diameter_max": 303.4170480479,
+            "estimated_diameter_min": 135.6922289935
+          },
+          "miles": {
+            "estimated_diameter_max": 0.1885345546,
+            "estimated_diameter_min": 0.084315216
+          }
+        },
+        "id": "3358522",
+        "is_potentially_hazardous_asteroid": true,
+        "is_sentry_object": false,
+        "name": "(2006 VG13)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3358522",
+        "neo_reference_id": "3358522",
+        "orbital_data": {
+          "aphelion_distance": "1.065707786310997",
+          "ascending_node_longitude": "96.43674397092107",
+          "data_arc_in_days": 6213,
+          "eccentricity": ".3034405876214052",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2006-11-13",
+          "inclination": "5.863794862497553",
+          "jupiter_tisserand_invariant": "7.116",
+          "last_observation_date": "2023-11-17",
+          "mean_anomaly": "107.9849186441475",
+          "mean_motion": "1.333164455429515",
+          "minimum_orbit_intersection": ".0456067",
+          "observations_used": 95,
+          "orbit_class": {
+            "orbit_class_type": "ATE",
+            "orbit_class_description": "Near-Earth asteroid orbits similar to that of 2062 Aten",
+            "orbit_class_range": "a (semi-major axis) < 1.0 AU; q (perihelion) > 0.983 AU"
+          },
+          "orbit_determination_date": "2024-01-04 06:03:49",
+          "orbit_id": "27",
+          "orbit_uncertainty": "0",
+          "orbital_period": "270.0342021075083",
+          "perihelion_argument": "115.2730967303595",
+          "perihelion_distance": ".5695148643136285",
+          "perihelion_time": "2460919.501051817454",
+          "semi_major_axis": ".8176113253123126"
+        }
+      },
+      {
+        "absolute_magnitude_h": 20.18,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-04",
+            "close_approach_date_full": "2026-Jul-04 10:20",
+            "epoch_date_close_approach": 1783160400000,
+            "miss_distance": {
+              "astronomical": "0.4914073359",
+              "kilometers": "73513490.753014533",
+              "lunar": "191.1574536651",
+              "miles": "45679164.9828972354"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "20809.5025870663",
+              "kilometers_per_second": "5.7804173853",
+              "miles_per_hour": "12930.215649169"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 1794.8370669804,
+            "estimated_diameter_min": 802.6755380609
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.5470663205,
+            "estimated_diameter_min": 0.2446554962
+          },
+          "meters": {
+            "estimated_diameter_max": 547.0663205095,
+            "estimated_diameter_min": 244.655496172
+          },
+          "miles": {
+            "estimated_diameter_max": 0.3399311466,
+            "estimated_diameter_min": 0.1520218303
+          }
+        },
+        "id": "3624902",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2013 BG27)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3624902",
+        "neo_reference_id": "3624902",
+        "orbital_data": {
+          "aphelion_distance": "1.999826875583142",
+          "ascending_node_longitude": "137.4667568217046",
+          "data_arc_in_days": 4994,
+          "eccentricity": ".2343861368412249",
+          "epoch_osculation": "2460800.5",
+          "equinox": "J2000",
+          "first_observation_date": "2011-01-29",
+          "inclination": "13.26108445994505",
+          "jupiter_tisserand_invariant": "4.268",
+          "last_observation_date": "2024-10-01",
+          "mean_anomaly": "114.4866952485163",
+          "mean_motion": ".4779605216826746",
+          "minimum_orbit_intersection": ".233642",
+          "observations_used": 182,
+          "orbit_class": {
+            "orbit_class_type": "AMO",
+            "orbit_class_description": "Near-Earth asteroid orbits similar to that of 1221 Amor",
+            "orbit_class_range": "1.017 AU < q (perihelion) < 1.3 AU"
+          },
+          "orbit_determination_date": "2024-10-01 07:01:46",
+          "orbit_id": "42",
+          "orbit_uncertainty": "0",
+          "orbital_period": "753.2002825936522",
+          "perihelion_argument": "196.42238989",
+          "perihelion_distance": "1.240369714279198",
+          "perihelion_time": "2460560.968302182234",
+          "semi_major_axis": "1.62009829493117"
+        }
+      },
+      {
+        "absolute_magnitude_h": 22.18,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-04",
+            "close_approach_date_full": "2026-Jul-04 15:26",
+            "epoch_date_close_approach": 1783178760000,
+            "miss_distance": {
+              "astronomical": "0.3592090499",
+              "kilometers": "53736908.749763713",
+              "lunar": "139.7323204111",
+              "miles": "33390566.7559487194"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "15243.775377454",
+              "kilometers_per_second": "4.2343820493",
+              "miles_per_hour": "9471.889206063"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 714.5375063401,
+            "estimated_diameter_min": 319.5508873299
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.217791025,
+            "estimated_diameter_min": 0.0973991073
+          },
+          "meters": {
+            "estimated_diameter_max": 217.7910249632,
+            "estimated_diameter_min": 97.3991073414
+          },
+          "miles": {
+            "estimated_diameter_max": 0.135329027,
+            "estimated_diameter_min": 0.0605209807
+          }
+        },
+        "id": "3766360",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2017 AE5)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3766360",
+        "neo_reference_id": "3766360",
+        "orbital_data": {
+          "aphelion_distance": "1.758794123517539",
+          "ascending_node_longitude": "1.881724873385628",
+          "data_arc_in_days": 4405,
+          "eccentricity": ".3381384498756806",
+          "epoch_osculation": "2460600.5",
+          "equinox": "J2000",
+          "first_observation_date": "2011-01-11",
+          "inclination": "2.279316099809264",
+          "jupiter_tisserand_invariant": "4.904",
+          "last_observation_date": "2023-02-02",
+          "mean_anomaly": "15.89462958999415",
+          "mean_motion": ".6540834188542097",
+          "minimum_orbit_intersection": ".0292447",
+          "observations_used": 214,
+          "orbit_class": {
+            "orbit_class_type": "APO",
+            "orbit_class_description": "Near-Earth asteroid orbits which cross the Earth’s orbit similar to that of 1862 Apollo",
+            "orbit_class_range": "a (semi-major axis) > 1.0 AU; q (perihelion) < 1.017 AU"
+          },
+          "orbit_determination_date": "2024-01-12 05:59:46",
+          "orbit_id": "34",
+          "orbit_uncertainty": "0",
+          "orbital_period": "550.3885125702005",
+          "perihelion_argument": "188.6423559605135",
+          "perihelion_distance": ".8699235905290745",
+          "perihelion_time": "2460576.199384616969",
+          "semi_major_axis": "1.314358857023307"
+        }
+      },
+      {
+        "absolute_magnitude_h": 22.11,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-04",
+            "close_approach_date_full": "2026-Jul-04 20:27",
+            "epoch_date_close_approach": 1783196820000,
+            "miss_distance": {
+              "astronomical": "0.1269391065",
+              "kilometers": "18989819.952103155",
+              "lunar": "49.3793124285",
+              "miles": "11799726.957627339"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "49953.7807021732",
+              "kilometers_per_second": "13.876050195",
+              "miles_per_hour": "31039.3366813031"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 737.9467595171,
+            "estimated_diameter_min": 330.0198236112
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.2249261651,
+            "estimated_diameter_min": 0.100590039
+          },
+          "meters": {
+            "estimated_diameter_max": 224.9261651032,
+            "estimated_diameter_min": 100.5900390178
+          },
+          "miles": {
+            "estimated_diameter_max": 0.1397625961,
+            "estimated_diameter_min": 0.0625037331
+          }
+        },
+        "id": "3825228",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2018 LH5)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3825228",
+        "neo_reference_id": "3825228",
+        "orbital_data": {
+          "aphelion_distance": "1.184298600127369",
+          "ascending_node_longitude": "273.6657114815398",
+          "data_arc_in_days": 1835,
+          "eccentricity": ".4659022465211719",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2018-06-12",
+          "inclination": "22.78180391691773",
+          "jupiter_tisserand_invariant": "7.084",
+          "last_observation_date": "2023-06-21",
+          "mean_anomaly": "280.061699874907",
+          "mean_motion": "1.357280987421543",
+          "minimum_orbit_intersection": ".123097",
+          "observations_used": 58,
+          "orbit_class": {
+            "orbit_class_type": "ATE",
+            "orbit_class_description": "Near-Earth asteroid orbits similar to that of 2062 Aten",
+            "orbit_class_range": "a (semi-major axis) < 1.0 AU; q (perihelion) > 0.983 AU"
+          },
+          "orbit_determination_date": "2023-06-29 07:42:02",
+          "orbit_id": "10",
+          "orbit_uncertainty": "1",
+          "orbital_period": "265.2361621036924",
+          "perihelion_argument": "168.8901761267721",
+          "perihelion_distance": ".4314961814658854",
+          "perihelion_time": "2461059.395910917424",
+          "semi_major_axis": ".8078973907966271"
+        }
+      },
+      {
+        "absolute_magnitude_h": 27.4,
+        "close_approach_data": [
+          {
+            "close_approach_date": "2026-07-04",
+            "close_approach_date_full": "2026-Jul-04 14:24",
+            "epoch_date_close_approach": 1783175040000,
+            "miss_distance": {
+              "astronomical": "0.0535772188",
+              "kilometers": "8015037.813003956",
+              "lunar": "20.8415381132",
+              "miles": "4980313.5567923528"
+            },
+            "orbiting_body": "Earth",
+            "relative_velocity": {
+              "kilometers_per_hour": "28402.789041472",
+              "kilometers_per_second": "7.8896636226",
+              "miles_per_hour": "17648.3885574635"
+            }
+          }
+        ],
+        "estimated_diameter": {
+          "feet": {
+            "estimated_diameter_max": 64.5691441559,
+            "estimated_diameter_min": 28.8761991163
+          },
+          "kilometers": {
+            "estimated_diameter_max": 0.0196806745,
+            "estimated_diameter_min": 0.0088014652
+          },
+          "meters": {
+            "estimated_diameter_max": 19.6806745089,
+            "estimated_diameter_min": 8.801465209
+          },
+          "miles": {
+            "estimated_diameter_max": 0.0122290004,
+            "estimated_diameter_min": 0.0054689752
+          }
+        },
+        "id": "3837605",
+        "is_potentially_hazardous_asteroid": false,
+        "is_sentry_object": false,
+        "name": "(2019 AE3)",
+        "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3837605",
+        "neo_reference_id": "3837605",
+        "orbital_data": {
+          "aphelion_distance": "1.093576977115039",
+          "ascending_node_longitude": "101.6762523882961",
+          "data_arc_in_days": 2,
+          "eccentricity": ".09956206701989563",
+          "epoch_osculation": "2461000.5",
+          "equinox": "J2000",
+          "first_observation_date": "2019-01-03",
+          "inclination": "14.81962313088454",
+          "jupiter_tisserand_invariant": "6.073",
+          "last_observation_date": "2019-01-05",
+          "mean_anomaly": "56.94965856171937",
+          "mean_motion": ".9937099985395742",
+          "minimum_orbit_intersection": ".00370579",
+          "observations_used": 23,
+          "orbit_class": {
+            "orbit_class_type": "ATE",
+            "orbit_class_description": "Near-Earth asteroid orbits similar to that of 2062 Aten",
+            "orbit_class_range": "a (semi-major axis) < 1.0 AU; q (perihelion) > 0.983 AU"
+          },
+          "orbit_determination_date": "2021-04-15 20:58:32",
+          "orbit_id": "3",
+          "orbit_uncertainty": "6",
+          "orbital_period": "362.2787337644596",
+          "perihelion_argument": "268.3417453303829",
+          "perihelion_distance": ".8955367071700545",
+          "perihelion_time": "2460943.189860577617",
+          "semi_major_axis": ".9945568421425466"
+        }
+      }
+    ]
+  }
+}

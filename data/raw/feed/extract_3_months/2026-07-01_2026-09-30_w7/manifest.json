@@ -1,0 +1,150 @@
+{
+  "config": {
+    "endpoint": "https://api.nasa.gov/neo/rest/v1/feed",
+    "start_date": "2026-07-01",
+    "end_date": "2026-09-30",
+    "window_days": 7
+  },
+  "windows": {
+    "2026-07-01_2026-07-07": {
+      "status": "success",
+      "file": "feed_2026-07-01_2026-07-07.json",
+      "requests": 1,
+      "updated_at": "2026-10-10T22:40:53.112793+00:00",
+      "sha256": "6944e1c00130602517c0775f086b39a2eb9c5952291a480056873727755e271a",
+      "records": 32,
+      "completed_at": "2026-10-10T22:40:53.112778+00:00",
+      "rate_remaining": "1995"
+    },
+    "2026-07-08_2026-07-14": {
+      "status": "success",
+      "file": "feed_2026-07-08_2026-07-14.json",
+      "requests": 1,
+      "updated_at": "2026-10-10T22:40:56.399887+00:00",
+      "sha256": "1aff14d61b6e1a423ddd88d40b3a3c0d73b1ce9737259222c3c152deef640914",
+      "records": 29,
+      "completed_at": "2026-10-10T22:40:56.399873+00:00",
+      "rate_remaining": "1994"
+    },
+    "2026-07-15_2026-07-21": {
+      "status": "success",
+      "file": "feed_2026-07-15_2026-07-21.json",
+      "requests": 1,
+      "updated_at": "2026-10-10T22:40:59.470126+00:00",
+      "sha256": "8bdfe4cc394bad3c4c26531e9add9b1ef9769eaec36f5cd9b4dfb3d6c756892b",
+      "records": 34,
+      "completed_at": "2026-10-10T22:40:59.470112+00:00",
+      "rate_remaining": "1993"
+    },
+    "2026-07-22_2026-07-28": {
+      "status": "success",
+      "file": "feed_2026-07-22_2026-07-28.json",
+      "requests": 1,
+      "updated_at": "2026-10-10T22:41:02.482925+00:00",
+      "sha256": "040a2605c88a930077b42f97126d6f4be1692da44acc7a5f473149d6e2ec45e4",
+      "records": 39,
+      "completed_at": "2026-10-10T22:41:02.482911+00:00",
+      "rate_remaining": "1992"
+    },
+    "2026-07-29_2026-08-04": {
+      "status": "success",
+      "file": "feed_2026-07-29_2026-08-04.json",
+      "requests": 1,
+      "updated_at": "2026-10-10T22:41:05.531991+00:00",
+      "sha256": "54691fe7b8ceb4d0ff0fcfa125bfdf15a3c0d8846827b722ef91c3ca2954ef52",
+      "records": 27,
+      "completed_at": "2026-10-10T22:41:05.531977+00:00",
+      "rate_remaining": "1991"
+    },
+    "2026-08-05_2026-08-11": {
+      "status": "success",
+      "file": "feed_2026-08-05_2026-08-11.json",
+      "requests": 1,
+      "updated_at": "2026-10-10T22:41:08.774243+00:00",
+      "sha256": "dacce8f93e6262930c591e7bd046e8d14cde17ce9ac13beb5892d129f1ef4974",
+      "records": 33,
+      "completed_at": "2026-10-10T22:41:08.774229+00:00",
+      "rate_remaining": "1990"
+    },
+    "2026-08-12_2026-08-18": {
+      "status": "success",
+      "file": "feed_2026-08-12_2026-08-18.json",
+      "requests": 1,
+      "updated_at": "2026-10-10T22:41:11.781188+00:00",
+      "sha256": "db44a4a995e63983ee8db69636f2124870d42dfe16409d1b604ade67e1d24972",
+      "records": 23,
+      "completed_at": "2026-10-10T22:41:11.781151+00:00",
+      "rate_remaining": "1989"
+    },
+    "2026-08-19_2026-08-25": {
+      "status": "success",
+      "file": "feed_2026-08-19_2026-08-25.json",
+      "requests": 1,
+      "updated_at": "2026-10-10T22:41:14.785984+00:00",
+      "sha256": "bb0d1fc41290411ee771628189609d27938386351e0d889b75eea2016a8eb722",
+      "records": 31,
+      "completed_at": "2026-10-10T22:41:14.785970+00:00",
+      "rate_remaining": "1988"
+    },
+    "2026-08-26_2026-09-01": {
+      "status": "success",
+      "file": "feed_2026-08-26_2026-09-01.json",
+      "requests": 1,
+      "updated_at": "2026-10-10T22:41:17.972019+00:00",
+      "sha256": "705e9d050991380cd11d370f504669bda3218ee9e15ad3cee729a426524c9dcb",
+      "records": 42,
+      "completed_at": "2026-10-10T22:41:17.972005+00:00",
+      "rate_remaining": "1987"
+    },
+    "2026-09-02_2026-09-08": {
+      "status": "success",
+      "file": "feed_2026-09-02_2026-09-08.json",
+      "requests": 1,
+      "updated_at": "2026-10-10T22:41:21.173192+00:00",
+      "sha256": "a5b526ed9f518239f0baffa7e70fbb463b9f98708fd0c84f48a209ea4909135f",
+      "records": 30,
+      "completed_at": "2026-10-10T22:41:21.173178+00:00",
+      "rate_remaining": "1986"
+    },
+    "2026-09-09_2026-09-15": {
+      "status": "success",
+      "file": "feed_2026-09-09_2026-09-15.json",
+      "requests": 1,
+      "updated_at": "2026-10-10T22:41:24.282724+00:00",
+      "sha256": "624a77cfafb2d9fa401c2e47775005ebd88cca3aeb96b19762628990d366a907",
+      "records": 39,
+      "completed_at": "2026-10-10T22:41:24.282711+00:00",
+      "rate_remaining": "1985"
+    },
+    "2026-09-16_2026-09-22": {
+      "status": "success",
+      "file": "feed_2026-09-16_2026-09-22.json",
+      "requests": 1,
+      "updated_at": "2026-10-10T22:41:27.253310+00:00",
+      "sha256": "89880e5a54b7b44bced2cfa9003b97584258d23dfa91c65c2c72bee56421d377",
+      "records": 37,
+      "completed_at": "2026-10-10T22:41:27.253295+00:00",
+      "rate_remaining": "1984"
+    },
+    "2026-09-23_2026-09-29": {
+      "status": "success",
+      "file": "feed_2026-09-23_2026-09-29.json",
+      "requests": 1,
+      "updated_at": "2026-10-10T22:41:30.371523+00:00",
+      "sha256": "c896534e0c9d5cee2797bd621190e0850a7393e9e0be2a5f1db75b6f2ed4fe78",
+      "records": 34,
+      "completed_at": "2026-10-10T22:41:30.371510+00:00",
+      "rate_remaining": "1983"
+    },
+    "2026-09-30_2026-09-30": {
+      "status": "success",
+      "file": "feed_2026-09-30_2026-09-30.json",
+      "requests": 1,
+      "updated_at": "2026-10-10T22:41:32.985929+00:00",
+      "sha256": "6cb40fed6d34006423ad52179ec39029499e827039008a60331e7296e1c1eb55",
+      "records": 5,
+      "completed_at": "2026-10-10T22:41:32.985914+00:00",
+      "rate_remaining": "1982"
+    }
+  }
+}
