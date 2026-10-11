@@ -13,16 +13,28 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import urlopen
 
-# Reuse helpers from the date-based extractor in the same folder
-from extract_asteroids import (
-    ExtractionError,
-    TRANSIENT_STATUS,
-    atomic_json,
-    file_digest,
-    remove_links,
-    retry_delay,
-    utc_now,
-)
+# Reuse helpers from the date-based extractor in the same folder.
+# Works both as a package (python -m pipeline.cli) and as a plain script.
+try:
+    from .extract_asteroids import (
+        ExtractionError,
+        TRANSIENT_STATUS,
+        atomic_json,
+        file_digest,
+        remove_links,
+        retry_delay,
+        utc_now,
+    )
+except ImportError:
+    from extract_asteroids import (
+        ExtractionError,
+        TRANSIENT_STATUS,
+        atomic_json,
+        file_digest,
+        remove_links,
+        retry_delay,
+        utc_now,
+    )
 
 
 BASE_URL = "https://api.nasa.gov/neo/rest/v1/neo"
