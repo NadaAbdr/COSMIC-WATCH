@@ -1,0 +1,705 @@
+{
+  "absolute_magnitude_h": 24.68,
+  "close_approach_data": [
+    {
+      "close_approach_date": "1900-03-30",
+      "close_approach_date_full": "1900-Mar-30 07:12",
+      "epoch_date_close_approach": -2201359680000,
+      "miss_distance": {
+        "astronomical": "0.0645880942",
+        "kilometers": "9662241.319679354",
+        "lunar": "25.1247686438",
+        "miles": "6003838.3543649252"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "9675.0478625529",
+        "kilometers_per_second": "2.6875132952",
+        "miles_per_hour": "6011.698489929"
+      }
+    },
+    {
+      "close_approach_date": "1906-04-04",
+      "close_approach_date_full": "1906-Apr-04 19:19",
+      "epoch_date_close_approach": -2011581660000,
+      "miss_distance": {
+        "astronomical": "0.0658179557",
+        "kilometers": "9846225.980474359",
+        "lunar": "25.6031847673",
+        "miles": "6118161.1213657942"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "9167.025876699",
+        "kilometers_per_second": "2.5463960769",
+        "miles_per_hour": "5696.03338433"
+      }
+    },
+    {
+      "close_approach_date": "1912-03-20",
+      "close_approach_date_full": "1912-Mar-20 14:50",
+      "epoch_date_close_approach": -1823505000000,
+      "miss_distance": {
+        "astronomical": "0.0642616631",
+        "kilometers": "9613407.922417597",
+        "lunar": "24.9977869459",
+        "miles": "5973494.6883609586"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "13169.4167494086",
+        "kilometers_per_second": "3.6581713193",
+        "miles_per_hour": "8182.9634240978"
+      }
+    },
+    {
+      "close_approach_date": "1912-07-28",
+      "close_approach_date_full": "1912-Jul-28 08:45",
+      "epoch_date_close_approach": -1812294900000,
+      "miss_distance": {
+        "astronomical": "0.1485450578",
+        "kilometers": "22222024.245906886",
+        "lunar": "57.7840274842",
+        "miles": "13808125.5751155868"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "7451.2204981456",
+        "kilometers_per_second": "2.0697834717",
+        "miles_per_hour": "4629.8986478616"
+      }
+    },
+    {
+      "close_approach_date": "1918-03-13",
+      "close_approach_date_full": "1918-Mar-13 01:20",
+      "epoch_date_close_approach": -1634856000000,
+      "miss_distance": {
+        "astronomical": "0.1422755809",
+        "kilometers": "21284123.855652683",
+        "lunar": "55.3452009701",
+        "miles": "13225341.2966777054"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "25162.7592921324",
+        "kilometers_per_second": "6.9896553589",
+        "miles_per_hour": "15635.1600723808"
+      }
+    },
+    {
+      "close_approach_date": "1949-07-13",
+      "close_approach_date_full": "1949-Jul-13 08:38",
+      "epoch_date_close_approach": -645981720000,
+      "miss_distance": {
+        "astronomical": "0.1824712719",
+        "kilometers": "27297313.612430853",
+        "lunar": "70.9813247691",
+        "miles": "16961764.1513096514"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "30900.1313392685",
+        "kilometers_per_second": "8.5833698165",
+        "miles_per_hour": "19200.1399424471"
+      }
+    },
+    {
+      "close_approach_date": "1955-01-28",
+      "close_approach_date_full": "1955-Jan-28 16:13",
+      "epoch_date_close_approach": -470994420000,
+      "miss_distance": {
+        "astronomical": "0.1713745845",
+        "kilometers": "25637272.813335015",
+        "lunar": "66.6647133705",
+        "miles": "15930262.630112607"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "12391.8108220971",
+        "kilometers_per_second": "3.4421696728",
+        "miles_per_hour": "7699.7893410969"
+      }
+    },
+    {
+      "close_approach_date": "1955-07-05",
+      "close_approach_date_full": "1955-Jul-05 17:25",
+      "epoch_date_close_approach": -457338900000,
+      "miss_distance": {
+        "astronomical": "0.0581734851",
+        "kilometers": "8702629.461436737",
+        "lunar": "22.6294857039",
+        "miles": "5407563.1952994906"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "18118.3801207542",
+        "kilometers_per_second": "5.0328833669",
+        "miles_per_hour": "11258.0568033653"
+      }
+    },
+    {
+      "close_approach_date": "1961-02-05",
+      "close_approach_date_full": "1961-Feb-05 22:30",
+      "epoch_date_close_approach": -280891800000,
+      "miss_distance": {
+        "astronomical": "0.1565308433",
+        "kilometers": "23416680.746983771",
+        "lunar": "60.8904980437",
+        "miles": "14550450.7028111998"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "10979.9858514795",
+        "kilometers_per_second": "3.0499960699",
+        "miles_per_hour": "6822.5362086596"
+      }
+    },
+    {
+      "close_approach_date": "1961-07-02",
+      "close_approach_date_full": "1961-Jul-02 13:17",
+      "epoch_date_close_approach": -268224180000,
+      "miss_distance": {
+        "astronomical": "0.0353035836",
+        "kilometers": "5281340.909926932",
+        "lunar": "13.7330940204",
+        "miles": "3281673.0682263816"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "15535.5515390388",
+        "kilometers_per_second": "4.3154309831",
+        "miles_per_hour": "9653.1875660211"
+      }
+    },
+    {
+      "close_approach_date": "1967-07-12",
+      "close_approach_date_full": "1967-Jul-12 13:13",
+      "epoch_date_close_approach": -78058020000,
+      "miss_distance": {
+        "astronomical": "0.1618030656",
+        "kilometers": "24205393.973230272",
+        "lunar": "62.9413925184",
+        "miles": "15040534.3761188736"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "28850.1866687666",
+        "kilometers_per_second": "8.0139407413",
+        "miles_per_hour": "17926.3840442678"
+      }
+    },
+    {
+      "close_approach_date": "1996-03-13",
+      "close_approach_date_full": "1996-Mar-13 15:22",
+      "epoch_date_close_approach": 826730520000,
+      "miss_distance": {
+        "astronomical": "0.1765486865",
+        "kilometers": "26411307.451697755",
+        "lunar": "68.6774390485",
+        "miles": "16411225.451848819"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "29013.6058776757",
+        "kilometers_per_second": "8.059334966",
+        "miles_per_hour": "18027.9263854925"
+      }
+    },
+    {
+      "close_approach_date": "2002-03-22",
+      "close_approach_date_full": "2002-Mar-22 22:52",
+      "epoch_date_close_approach": 1016837520000,
+      "miss_distance": {
+        "astronomical": "0.0700947182",
+        "kilometers": "10486020.540970234",
+        "lunar": "27.2668453798",
+        "miles": "6515711.0266238692"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "14377.3346681873",
+        "kilometers_per_second": "3.9937040745",
+        "miles_per_hour": "8933.5166442411"
+      }
+    },
+    {
+      "close_approach_date": "2002-08-04",
+      "close_approach_date_full": "2002-Aug-04 15:21",
+      "epoch_date_close_approach": 1028474460000,
+      "miss_distance": {
+        "astronomical": "0.1569020135",
+        "kilometers": "23472207.018311245",
+        "lunar": "61.0348832515",
+        "miles": "14584953.127915381"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "8007.5094264505",
+        "kilometers_per_second": "2.224308174",
+        "miles_per_hour": "4975.554954452"
+      }
+    },
+    {
+      "close_approach_date": "2008-04-26",
+      "close_approach_date_full": "2008-Apr-26 08:43",
+      "epoch_date_close_approach": 1209199380000,
+      "miss_distance": {
+        "astronomical": "0.0669613222",
+        "kilometers": "10017271.173503714",
+        "lunar": "26.0479543358",
+        "miles": "6224443.6759266932"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "9342.8463164321",
+        "kilometers_per_second": "2.5952350879",
+        "miles_per_hour": "5805.2813681186"
+      }
+    },
+    {
+      "close_approach_date": "2014-05-19",
+      "close_approach_date_full": "2014-May-19 02:23",
+      "epoch_date_close_approach": 1400466180000,
+      "miss_distance": {
+        "astronomical": "0.063047229",
+        "kilometers": "9431731.16780223",
+        "lunar": "24.525372081",
+        "miles": "5860605.987761574"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "9606.5366110799",
+        "kilometers_per_second": "2.668482392",
+        "miles_per_hour": "5969.1282625902"
+      }
+    },
+    {
+      "close_approach_date": "2020-04-23",
+      "close_approach_date_full": "2020-Apr-23 18:13",
+      "epoch_date_close_approach": 1587665580000,
+      "miss_distance": {
+        "astronomical": "0.0671804494",
+        "kilometers": "10050052.135882778",
+        "lunar": "26.1331948166",
+        "miles": "6244812.8214192164"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "9255.3260873975",
+        "kilometers_per_second": "2.5709239132",
+        "miles_per_hour": "5750.899701361"
+      }
+    },
+    {
+      "close_approach_date": "2026-03-21",
+      "close_approach_date_full": "2026-Mar-21 00:03",
+      "epoch_date_close_approach": 1774051380000,
+      "miss_distance": {
+        "astronomical": "0.0721176495",
+        "kilometers": "10788646.754606565",
+        "lunar": "28.0537656555",
+        "miles": "6703754.236097997"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "14779.6737248357",
+        "kilometers_per_second": "4.1054649236",
+        "miles_per_hour": "9183.5144875236"
+      }
+    },
+    {
+      "close_approach_date": "2026-08-08",
+      "close_approach_date_full": "2026-Aug-08 19:37",
+      "epoch_date_close_approach": 1786217820000,
+      "miss_distance": {
+        "astronomical": "0.1612959519",
+        "kilometers": "24129530.843862453",
+        "lunar": "62.7441252891",
+        "miles": "14993395.2134017314"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "8439.3528812633",
+        "kilometers_per_second": "2.3442646892",
+        "miles_per_hour": "5243.8856833605"
+      }
+    },
+    {
+      "close_approach_date": "2032-03-11",
+      "close_approach_date_full": "2032-Mar-11 18:11",
+      "epoch_date_close_approach": 1962641460000,
+      "miss_distance": {
+        "astronomical": "0.1829754674",
+        "kilometers": "27372740.185294438",
+        "lunar": "71.1774568186",
+        "miles": "17008632.0503937244"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "29615.6435296631",
+        "kilometers_per_second": "8.2265676471",
+        "miles_per_hour": "18402.0091698621"
+      }
+    },
+    {
+      "close_approach_date": "2063-01-18",
+      "close_approach_date_full": "2063-Jan-18 20:52",
+      "epoch_date_close_approach": 2936379120000,
+      "miss_distance": {
+        "astronomical": "0.1937422143",
+        "kilometers": "28983422.588363541",
+        "lunar": "75.3657213627",
+        "miles": "18009463.6864812258"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "14161.6728541863",
+        "kilometers_per_second": "3.9337980151",
+        "miles_per_hour": "8799.5127798693"
+      }
+    },
+    {
+      "close_approach_date": "2063-07-09",
+      "close_approach_date_full": "2063-Jul-09 15:04",
+      "epoch_date_close_approach": 2951219040000,
+      "miss_distance": {
+        "astronomical": "0.1027564154",
+        "kilometers": "15372140.872675198",
+        "lunar": "39.9722455906",
+        "miles": "9551805.4151778124"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "22777.115435478",
+        "kilometers_per_second": "6.3269765099",
+        "miles_per_hour": "14152.8137548946"
+      }
+    },
+    {
+      "close_approach_date": "2069-02-13",
+      "close_approach_date_full": "2069-Feb-13 13:50",
+      "epoch_date_close_approach": 3127989000000,
+      "miss_distance": {
+        "astronomical": "0.1419203642",
+        "kilometers": "21230984.193944254",
+        "lunar": "55.2070216738",
+        "miles": "13192321.8420245452"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "9666.2676844601",
+        "kilometers_per_second": "2.6850743568",
+        "miles_per_hour": "6006.2428287136"
+      }
+    },
+    {
+      "close_approach_date": "2069-06-29",
+      "close_approach_date_full": "2069-Jun-29 07:33",
+      "epoch_date_close_approach": 3139716780000,
+      "miss_distance": {
+        "astronomical": "0.0197011621",
+        "kilometers": "2947251.886684727",
+        "lunar": "7.6637520569",
+        "miles": "1831337.4021421526"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "13357.7666521504",
+        "kilometers_per_second": "3.7104907367",
+        "miles_per_hour": "8299.9967289431"
+      }
+    },
+    {
+      "close_approach_date": "2075-02-09",
+      "close_approach_date_full": "2075-Feb-09 08:39",
+      "epoch_date_close_approach": 3316927140000,
+      "miss_distance": {
+        "astronomical": "0.1541040985",
+        "kilometers": "23053644.893870195",
+        "lunar": "59.9464943165",
+        "miles": "14324870.683970891"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "10794.7393706413",
+        "kilometers_per_second": "2.9985387141",
+        "miles_per_hour": "6707.4312494965"
+      }
+    },
+    {
+      "close_approach_date": "2075-07-02",
+      "close_approach_date_full": "2075-Jul-02 19:31",
+      "epoch_date_close_approach": 3329321460000,
+      "miss_distance": {
+        "astronomical": "0.0315573656",
+        "kilometers": "4720914.676571272",
+        "lunar": "12.2758152184",
+        "miles": "2933440.3545846736"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "15319.8907877065",
+        "kilometers_per_second": "4.2555252188",
+        "miles_per_hour": "9519.1843619502"
+      }
+    },
+    {
+      "close_approach_date": "2104-03-23",
+      "close_approach_date_full": "2104-Mar-23 03:42",
+      "epoch_date_close_approach": 4235686920000,
+      "miss_distance": {
+        "astronomical": "0.0935020025",
+        "kilometers": "13987700.414734675",
+        "lunar": "36.3722789725",
+        "miles": "8691554.005001515"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "17988.240460324",
+        "kilometers_per_second": "4.9967334612",
+        "miles_per_hour": "11177.1930793607"
+      }
+    },
+    {
+      "close_approach_date": "2104-08-18",
+      "close_approach_date_full": "2104-Aug-18 14:56",
+      "epoch_date_close_approach": 4248514560000,
+      "miss_distance": {
+        "astronomical": "0.1795002777",
+        "kilometers": "26852859.208328499",
+        "lunar": "69.8256080253",
+        "miles": "16685592.9908273262"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "9556.9729768191",
+        "kilometers_per_second": "2.6547147158",
+        "miles_per_hour": "5938.3313477351"
+      }
+    },
+    {
+      "close_approach_date": "2110-06-21",
+      "close_approach_date_full": "2110-Jun-21 20:59",
+      "epoch_date_close_approach": 4432827540000,
+      "miss_distance": {
+        "astronomical": "0.0349869668",
+        "kilometers": "5233975.711040716",
+        "lunar": "13.6099300852",
+        "miles": "3252241.6983892408"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "10727.1491533632",
+        "kilometers_per_second": "2.9797636537",
+        "miles_per_hour": "6665.4333169884"
+      }
+    },
+    {
+      "close_approach_date": "2116-02-08",
+      "close_approach_date_full": "2116-Feb-08 08:33",
+      "epoch_date_close_approach": 4610593980000,
+      "miss_distance": {
+        "astronomical": "0.1601891609",
+        "kilometers": "23963957.267727283",
+        "lunar": "62.3135835901",
+        "miles": "14890512.5639231854"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "11360.5193178012",
+        "kilometers_per_second": "3.1556998105",
+        "miles_per_hour": "7058.9849061082"
+      }
+    },
+    {
+      "close_approach_date": "2116-07-04",
+      "close_approach_date_full": "2116-Jul-04 05:10",
+      "epoch_date_close_approach": 4623282600000,
+      "miss_distance": {
+        "astronomical": "0.0412477981",
+        "kilometers": "6170582.737950047",
+        "lunar": "16.0453934609",
+        "miles": "3834222.3181107686"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "16410.4237157921",
+        "kilometers_per_second": "4.5584510322",
+        "miles_per_hour": "10196.7991138487"
+      }
+    },
+    {
+      "close_approach_date": "2145-03-30",
+      "close_approach_date_full": "2145-Mar-30 04:26",
+      "epoch_date_close_approach": 5530134360000,
+      "miss_distance": {
+        "astronomical": "0.071658776",
+        "kilometers": "10720000.25640712",
+        "lunar": "27.875263864",
+        "miles": "6661099.280053456"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "12710.1299543037",
+        "kilometers_per_second": "3.530591654",
+        "miles_per_hour": "7897.5804707727"
+      }
+    },
+    {
+      "close_approach_date": "2151-02-18",
+      "close_approach_date_full": "2151-Feb-18 04:51",
+      "epoch_date_close_approach": 5715982260000,
+      "miss_distance": {
+        "astronomical": "0.144334811",
+        "kilometers": "21592180.29245257",
+        "lunar": "56.146241479",
+        "miles": "13416758.690362666"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "9650.9698351367",
+        "kilometers_per_second": "2.6808249542",
+        "miles_per_hour": "5996.7373400604"
+      }
+    },
+    {
+      "close_approach_date": "2151-07-01",
+      "close_approach_date_full": "2151-Jul-01 17:21",
+      "epoch_date_close_approach": 5727518460000,
+      "miss_distance": {
+        "astronomical": "0.0202903092",
+        "kilometers": "3035387.037961404",
+        "lunar": "7.8929302788",
+        "miles": "1886102.0456752152"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "13969.6359093791",
+        "kilometers_per_second": "3.8804544193",
+        "miles_per_hour": "8680.1884904694"
+      }
+    },
+    {
+      "close_approach_date": "2168-03-20",
+      "close_approach_date_full": "2168-Mar-20 13:52",
+      "epoch_date_close_approach": 6255150720000,
+      "miss_distance": {
+        "astronomical": "0.1637492297",
+        "kilometers": "24496535.977260739",
+        "lunar": "63.6984503533",
+        "miles": "15221441.6286426382"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "26649.3406413904",
+        "kilometers_per_second": "7.4025946226",
+        "miles_per_hour": "16558.8639113128"
+      }
+    },
+    {
+      "close_approach_date": "2174-02-05",
+      "close_approach_date_full": "2174-Feb-05 17:44",
+      "epoch_date_close_approach": 6440751840000,
+      "miss_distance": {
+        "astronomical": "0.1737224657",
+        "kilometers": "25988510.839868059",
+        "lunar": "67.5780391573",
+        "miles": "16148511.8194508542"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "12306.2746630294",
+        "kilometers_per_second": "3.4184096286",
+        "miles_per_hour": "7646.6404982585"
+      }
+    },
+    {
+      "close_approach_date": "2174-07-07",
+      "close_approach_date_full": "2174-Jul-07 13:36",
+      "epoch_date_close_approach": 6453869760000,
+      "miss_distance": {
+        "astronomical": "0.0650707784",
+        "kilometers": "9734449.847882008",
+        "lunar": "25.3125327976",
+        "miles": "6048706.6532193904"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "18944.0707784266",
+        "kilometers_per_second": "5.2622418829",
+        "miles_per_hour": "11771.1088678507"
+      }
+    },
+    {
+      "close_approach_date": "2191-06-22",
+      "close_approach_date_full": "2191-Jun-22 23:19",
+      "epoch_date_close_approach": 6989066340000,
+      "miss_distance": {
+        "astronomical": "0.0312463845",
+        "kilometers": "4674392.566401015",
+        "lunar": "12.1548435705",
+        "miles": "2904532.855783407"
+      },
+      "orbiting_body": "Earth",
+      "relative_velocity": {
+        "kilometers_per_hour": "11091.6265810706",
+        "kilometers_per_second": "3.0810073836",
+        "miles_per_hour": "6891.9054164436"
+      }
+    }
+  ],
+  "designation": "2014 CH13",
+  "estimated_diameter": {
+    "feet": {
+      "estimated_diameter_max": 225.9565993652,
+      "estimated_diameter_min": 101.050863229
+    },
+    "kilometers": {
+      "estimated_diameter_max": 0.0688715693,
+      "estimated_diameter_min": 0.0308003021
+    },
+    "meters": {
+      "estimated_diameter_max": 68.8715692826,
+      "estimated_diameter_min": 30.8003021266
+    },
+    "miles": {
+      "estimated_diameter_max": 0.0427947959,
+      "estimated_diameter_min": 0.0191384145
+    }
+  },
+  "id": "3661496",
+  "is_potentially_hazardous_asteroid": false,
+  "is_sentry_object": false,
+  "name": "(2014 CH13)",
+  "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3661496",
+  "neo_reference_id": "3661496",
+  "orbital_data": {
+    "aphelion_distance": "1.2727385352078",
+    "ascending_node_longitude": "111.6357332388105",
+    "data_arc_in_days": 4401,
+    "eccentricity": ".1283058945838018",
+    "epoch_osculation": "2461000.5",
+    "equinox": "J2000",
+    "first_observation_date": "2014-02-10",
+    "inclination": "3.780129908760253",
+    "jupiter_tisserand_invariant": "5.534",
+    "last_observation_date": "2026-02-28",
+    "mean_anomaly": "227.6064044607122",
+    "mean_motion": ".8226887698851454",
+    "minimum_orbit_intersection": ".0198481",
+    "observations_used": 47,
+    "orbit_class": {
+      "orbit_class_type": "APO",
+      "orbit_class_description": "Near-Earth asteroid orbits which cross the Earth’s orbit similar to that of 1862 Apollo",
+      "orbit_class_range": "a (semi-major axis) > 1.0 AU; q (perihelion) < 1.017 AU"
+    },
+    "orbit_determination_date": "2026-03-01 05:41:15",
+    "orbit_id": "9",
+    "orbit_uncertainty": "0",
+    "orbital_period": "437.5895395414954",
+    "perihelion_argument": "113.242835154005",
+    "perihelion_distance": ".9832782795891751",
+    "perihelion_time": "2461161.427923639666",
+    "semi_major_axis": "1.128008407398488"
+  }
+}
