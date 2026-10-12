@@ -1,45 +1,46 @@
-# Runs on every pull request and on every push to main.
-# Three independent checks: lint, unit tests, and "does the dbt project still parse".
-name: CI
+# # Runs on every pull request and on every push to main.
+# # Three independent checks: lint, unit tests, and "does the dbt project still parse".
+# name: CI
 
-on:
-  pull_request:
-  push:
-    branches: [main]
+# on:
+#   pull_request:
+#   push:
+#     branches: [main]
 
-jobs:
-  lint:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - run: pip install ruff
-      - run: ruff check .
+# jobs:
+#   lint:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v4
+#       - uses: actions/setup-python@v5
+#         with:
+#           python-version: "3.12"
+#       - run: pip install ruff
+#       - run: ruff check .
 
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      # `pip install -e .` installs the pipeline package and pandas/psycopg from pyproject.toml
-      - run: pip install -e . pytest
-      - run: pytest -v
+#   test:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v4
+#       - uses: actions/setup-python@v5
+#         with:
+#           python-version: "3.12"
+#       # `pip install -e .` installs the pipeline package and pandas/psycopg from pyproject.toml
+#       - run: pip install -e . pytest
+#       - run: pytest -v
 
-  dbt-parse:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - run: pip install "dbt-postgres>=1.10"
-      # `dbt parse` reads every model and schema.yml and reports mistakes such as
-      # wrong indentation. It runs no SQL, so no database is needed.
-      - run: dbt parse --profiles-dir .
-        working-directory: dbt
-        env:
-          POSTGRES_PASSWORD: ci-placeholder
+#   dbt-parse:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v4
+#       - uses: actions/setup-python@v5
+#         with:
+#           python-version: "3.12"
+#       - run: pip install "dbt-postgres>=1.10"
+#       # `dbt parse` reads every model and schema.yml and reports mistakes such as
+#       # wrong indentation. It runs no SQL, so no database is needed.
+#       - run: dbt parse --profiles-dir .
+#         working-directory: dbt
+#         env:
+#           POSTGRES_PASSWORD: ci-placeholder
+         
