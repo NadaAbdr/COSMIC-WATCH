@@ -30,10 +30,10 @@ models:
       - name: asteroid_id
         data_tests:
           - not_null
-      - relationships:
-            arguments:
-             to: ref('dim_asteroids')
-             field: asteroid_id
+          - relationships:
+              arguments:
+                to: ref('dim_asteroids')
+                field: asteroid_id
       - name: close_approach_date
         data_tests:
           - not_null
