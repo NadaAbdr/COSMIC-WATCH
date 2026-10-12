@@ -1,0 +1,45 @@
+version: 2
+
+models:
+  - name: dim_asteroids
+    description: "One row per asteroid: size, hazard flags and orbit."
+    columns:
+      - name: asteroid_id
+        description: "NASA NeoWs id (text). Primary key."
+        data_tests:
+          - unique
+          - not_null
+      - name: name
+        data_tests:
+          - not_null
+      - name: is_hazardous
+        data_tests:
+          - not_null
+      - name: is_sentry
+        data_tests:
+          - not_null
+
+  - name: fact_close_approaches
+    description: "One row per close approach of an asteroid to a body (usually Earth)."
+    columns:
+      - name: approach_id
+        description: "md5 of asteroid_id + exact approach time. Primary key; prevents duplicate events."
+        data_tests:
+          - unique
+          - not_null
+      - name: asteroid_id
+        data_tests:
+          - not_null
+      - relationships:
+            arguments:
+             to: ref('dim_asteroids')
+             field: asteroid_id
+      - name: close_approach_date
+        data_tests:
+          - not_null
+      - name: velocity_kmh
+        data_tests:
+          - not_null
+      - name: miss_distance_km
+        data_tests:
+          - not_null

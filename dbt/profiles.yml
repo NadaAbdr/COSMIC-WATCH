@@ -1,0 +1,14 @@
+# Connection settings for dbt. Secrets come from environment variables (never hardcode them).
+# Run dbt with:  dbt build --profiles-dir .   (from inside the dbt/ folder)
+cosmic_watch:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: "{{ env_var('POSTGRES_HOST', 'localhost') }}"
+      port: "{{ env_var('POSTGRES_PORT', '5432') | as_number }}"
+      user: "{{ env_var('POSTGRES_USER', 'cosmic') }}"
+      password: "{{ env_var('POSTGRES_PASSWORD') }}"
+      dbname: "{{ env_var('POSTGRES_DB', 'cosmic_watch') }}"
+      schema: analytics          # dbt creates this schema; raw.* stays untouched
+      threads: 4

@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw
+    description: "Untouched NASA NeoWs API responses loaded by pipeline.load_raw (sql/001_raw_schema.sql)."
+    schema: raw
+    tables:
+      - name: neo_feed_responses
+        description: "One row per feed response (one date range). Asteroids per day are nested in payload->near_earth_objects."
+      - name: neo_lookup_responses
+        description: "One row per asteroid (lookup endpoint). Includes the full close-approach history."

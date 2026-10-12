@@ -11,6 +11,7 @@ services:
       - "5432:5432"                    # host:container. Change the left number if 5432 is already used
     volumes:
       - pgdata:/var/lib/postgresql/data   # keeps the data after the container stops
+      - ./sql:/docker-entrypoint-initdb.d:ro   # *.sql files run once, when the DB is first created
     healthcheck:                       # tells compose when the DB is really ready
       # "$$" so compose passes a literal $ to the container's shell
       test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
