@@ -8,7 +8,6 @@ import argparse
 import random
 import re
 import socket
-import fcntl
 import getpass
 import hashlib
 import json
@@ -23,6 +22,12 @@ from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import urlopen
+
+# Works both as a package (python -m pipeline.cli) and as a plain script.
+try:
+    from .proclock import lock_nonblocking
+except ImportError:
+    from proclock import lock_nonblocking
 
 
 BASE_URL = "https://api.nasa.gov/neo/rest/v1/feed"
@@ -356,10 +361,10 @@ def run(args):
 
     folder.mkdir(parents=True, exist_ok=True)
 
-    # This lock works on Ubuntu/Linux
+    # Works on Linux and Windows (see pipeline/proclock.py)
     with (folder / "extract.lock").open("a") as lock:
         try:
-            fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+            lock_nonblocking(lock)
 
         except BlockingIOError:
             raise ExtractionError(

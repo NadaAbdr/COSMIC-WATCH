@@ -1,7 +1,6 @@
 """Collect unique IDs from Feed JSON and extract their NeoWs Lookup details."""
 
 import argparse
-import fcntl
 import getpass
 import json
 import math
@@ -35,6 +34,12 @@ except ImportError:
         retry_delay,
         utc_now,
     )
+
+# Works both as a package (python -m pipeline.cli) and as a plain script.
+try:
+    from .proclock import lock_nonblocking
+except ImportError:
+    from proclock import lock_nonblocking
 
 
 BASE_URL = "https://api.nasa.gov/neo/rest/v1/neo"
@@ -250,7 +255,7 @@ def run(args):
 
     with (output / "details.lock").open("a") as lock:
         try:
-            fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+            lock_nonblocking(lock)
 
         except BlockingIOError:
             raise ExtractionError(
