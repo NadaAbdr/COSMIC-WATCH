@@ -8,3 +8,10 @@ __pycache__/
 *.pyc
 data/raw/*
 !data/raw/.gitkeep
+
+# dbt build output
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+.venv/
+*.egg-info/

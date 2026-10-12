@@ -8,7 +8,7 @@ Commands:
     details    Download orbital details for each asteroid ID
     transform  Turn raw JSON into silver CSVs (dim_asteroids, fact_close_approaches)
     validate   Run quality checks on the silver CSVs
-    load       Load into PostgreSQL (not implemented yet)
+    load       Load raw JSON into PostgreSQL: load feed|lookup|all <path>
 
 Every command passes its remaining options to the underlying script, e.g.
     python -m pipeline.cli extract --help
@@ -21,6 +21,7 @@ COMMANDS = {
     "extract": "pipeline.extract_asteroids",
     "details": "pipeline.extract_asteroid_details",
     "transform": "pipeline.transform_raw",
+    "load": "pipeline.load_raw",
 }
 HELP = __doc__
 
@@ -70,10 +71,6 @@ def main(argv=None):
 
     if command == "validate":
         return validate()
-
-    if command == "load":
-        print("'load' is not implemented yet (Linear: load JSON into PostgreSQL).")
-        return 2
 
     if command not in COMMANDS:
         print(f"Unknown command '{command}'.\n")

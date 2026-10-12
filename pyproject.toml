@@ -12,6 +12,9 @@ dependencies = [
     "psycopg[binary]>=3.1",
 ]
 
+[project.optional-dependencies]
+dbt = ["dbt-postgres>=1.8"]
+
 [project.scripts]
 cosmic-watch = "pipeline.cli:main"
 

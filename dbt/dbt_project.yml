@@ -1,0 +1,14 @@
+name: cosmic_watch
+version: "0.1.0"
+config-version: 2
+profile: cosmic_watch
+
+model-paths: ["models"]
+test-paths: ["tests"]
+
+models:
+  cosmic_watch:
+    staging:
+      +materialized: view      # light, always up to date with raw
+    marts:
+      +materialized: table     # the tables the dashboard reads
