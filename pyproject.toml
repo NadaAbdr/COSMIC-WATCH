@@ -13,8 +13,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dbt = ["dbt-postgres>=1.8"]
-
+dbt = ["dbt-postgres>=1.10"]
 [project.scripts]
 cosmic-watch = "pipeline.cli:main"
 
