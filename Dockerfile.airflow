@@ -1,0 +1,12 @@
+FROM apache/airflow:2.10.5
+
+USER root
+RUN mkdir -p /opt/airflow/db /opt/airflow/project \
+    && chown -R airflow /opt/airflow/db /opt/airflow/project
+
+USER airflow
+RUN python -m venv /home/airflow/venv
+
+COPY --chown=airflow pyproject.toml /tmp/pkg/pyproject.toml
+COPY --chown=airflow src /tmp/pkg/src
+RUN /home/airflow/venv/bin/pip install --no-cache-dir /tmp/pkg "dbt-postgres>=1.10"
