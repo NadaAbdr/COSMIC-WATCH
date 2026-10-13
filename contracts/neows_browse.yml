@@ -1,0 +1,40 @@
+# Contract for the NASA NeoWs API response (what we RECEIVE).
+#
+# One "near-Earth object" (asteroid) has the same shape in all three endpoints we use:
+#   feed    -> payload["near_earth_objects"]  = {"2026-07-01": [object, ...], ...}
+#   browse  -> payload["near_earth_objects"]  = [object, ...]
+#   lookup  -> the payload IS one object
+#
+# IMPORTANT QUIRK: NASA sends many numbers as TEXT, e.g. "kilometers_per_hour": "22718.80".
+# That is "numeric_string" below. The transform step must convert these to numbers; the
+# validator checks they ARE convertible, so an API change (empty string, "N/A", a comma) is
+# caught before it breaks the tables.
+#
+# Check it:  python -m pipeline.cli contracts raw data/raw
+#
+# Types: string | digit_string | numeric_string | number | integer | boolean | date_string
+# Paths: dotted; "[]" means "for every item of this list".
+name: neows_near_earth_object
+version: 1
+
+fields:
+  - {path: "id",                                   type: digit_string}
+  - {path: "neo_reference_id",                     type: digit_string}
+  - {path: "name",                                 type: string}
+  - {path: "absolute_magnitude_h",                 type: number}
+  - {path: "is_potentially_hazardous_asteroid",    type: boolean}
+  - {path: "is_sentry_object",                     type: boolean}
+  - {path: "estimated_diameter.meters.estimated_diameter_min", type: number, min: 0}
+  - {path: "estimated_diameter.meters.estimated_diameter_max", type: number, min: 0}
+
+  - {path: "orbital_data.orbit_class.orbit_class_type", type: string}
+  - {path: "orbital_data.eccentricity",            type: numeric_string, min: 0}
+  - {path: "orbital_data.semi_major_axis",         type: numeric_string, min: 0}
+  - {path: "orbital_data.inclination",             type: numeric_string}
+
+  - {path: "close_approach_data[].close_approach_date",       type: date_string}
+  - {path: "close_approach_data[].epoch_date_close_approach", type: integer}
+  - {path: "close_approach_data[].orbiting_body",             type: string}
+  - {path: "close_approach_data[].relative_velocity.kilometers_per_hour", type: numeric_string, min: 0}
+  - {path: "close_approach_data[].miss_distance.kilometers",  type: numeric_string, min: 0}
+  - {path: "close_approach_data[].miss_distance.lunar",       type: numeric_string, min: 0}

@@ -82,7 +82,7 @@ The first build takes a few minutes (it installs dbt). Then:
 
 - **Never commit `.env`.** It holds your key and password. It is already in `.gitignore`.
 - **Do not commit refreshed `data/raw` files.** Running the pipeline rewrites them, and NASA echoes your API key inside some of the downloaded URLs. Stage files by name (`git add <file>`), not with `git add .` or `git commit -a`.
-- **On Windows, `extract` and `details` cannot run directly.** They use `fcntl`, which only exists on Linux and Mac. Run them through Docker or Airflow (Option B).
+- **`extract` and `details` run on Windows, Mac and Linux.** A small helper (`src/pipeline/proclock.py`) provides the "only one extraction at a time" lock on every system. Docker and Airflow (Option B) work too.
 
 ---
 

@@ -1,0 +1,45 @@
+# Contract for our own tables (what we PRODUCE): the dbt marts in PostgreSQL schema `analytics`,
+# and the older CSV copies in data/silver/.
+#
+# Check the database:  python -m pipeline.cli contracts tables --db
+# Check the CSV files: python -m pipeline.cli contracts tables data/silver
+#
+# Column types: id | string | float | integer | boolean | date | timestamp
+#   id        text made only of digits (NASA ids such as "2001620"), never a number type
+#   float     a real number. A text value like "42346.1" in a float column is a violation
+#             (this is the "string-typed number" mistake the contract exists to catch).
+# `optional: true` = produced by the dbt version only; CSV files from the older script may lack it.
+# `nullable: false` (default) = no missing values allowed.
+tables:
+  dim_asteroids:
+    description: One row per asteroid.
+    primary_key: [asteroid_id]
+    columns:
+      asteroid_id:        {type: id}
+      name:               {type: string}
+      absolute_magnitude: {type: float}
+      diameter_min_m:     {type: float, min: 0}
+      diameter_max_m:     {type: float, min: 0}
+      is_hazardous:       {type: boolean}
+      is_sentry:          {type: boolean}
+      orbit_class:        {type: string, allowed: [AMO, APO, ATE, IEO]}
+      eccentricity:       {type: float, min: 0, max: 1}
+      semi_major_axis_au: {type: float, min: 0}
+      data_source:        {type: string, optional: true, allowed: [lookup, feed]}
+
+  fact_close_approaches:
+    description: One row per close approach (an asteroid passing a body at one moment).
+    primary_key: [approach_id]            # only enforced when that column exists (dbt version)
+    foreign_keys:
+      - {column: asteroid_id, references: dim_asteroids.asteroid_id}
+    columns:
+      approach_id:              {type: string, optional: true}
+      asteroid_id:              {type: id}
+      close_approach_date:      {type: date}
+      close_approach_date_full: {type: string, optional: true}
+      close_approach_ts_utc:    {type: timestamp, optional: true}
+      orbiting_body:            {type: string}
+      velocity_kmh:             {type: float, min: 0, exclusive_min: true}
+      miss_distance_km:         {type: float, min: 0}
+      miss_distance_lunar:      {type: float, min: 0}
+      data_source:              {type: string, optional: true, allowed: [lookup, feed]}
