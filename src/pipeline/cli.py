@@ -9,6 +9,7 @@ Commands:
     transform  Turn raw JSON into silver CSVs (dim_asteroids, fact_close_approaches)
     validate   Run quality checks on the silver CSVs
     load       Load raw JSON into PostgreSQL: load feed|lookup|all <path>
+    contracts  Check raw JSON or tables against contracts/*.yml: contracts raw|tables <path>
 
 Every command passes its remaining options to the underlying script, e.g.
     python -m pipeline.cli extract --help
@@ -22,6 +23,7 @@ COMMANDS = {
     "details": "pipeline.extract_asteroid_details",
     "transform": "pipeline.transform_raw",
     "load": "pipeline.load_raw",
+    "contracts": "pipeline.contracts",
 }
 HELP = __doc__
 

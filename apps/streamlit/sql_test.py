@@ -1,5 +1,4 @@
 import os
-from pathlib import Path
 import pandas as pd
 import psycopg
 import streamlit as st
@@ -78,7 +77,7 @@ WHERE close_approach_date >= '{start_date}'
 df_period = run_query(sql_period_count)
 if not df_period.empty:
     total_count = df_period.iloc[0]['total_approaches']
-    st.metric(label=f"Total Approaches (Filtered)", value=total_count)
+    st.metric(label="Total Approaches (Filtered)", value=total_count)
 
 st.markdown("---")
 
@@ -110,7 +109,7 @@ with col_right:
     st.markdown("### Last 6 Months Trend ")
     
     # استعلام يجلب آخر 6 شهور فقط بناءً على التواريخ المتوفرة في الجدول
-    sql_last_6_months = f"""
+    sql_last_6_months = """
     SELECT TO_CHAR(close_approach_date, 'YYYY-MM') AS approach_month, COUNT(*) AS approaches_count
     FROM analytics.fact_close_approaches
     WHERE close_approach_date >= (SELECT MAX(close_approach_date) - INTERVAL '6 months' FROM analytics.fact_close_approaches)

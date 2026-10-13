@@ -136,5 +136,35 @@ class CalculationTests(unittest.TestCase):
         self.assertEqual(int(counts["asteroids"].sum()), 4)
 
 
+class CoverageTests(unittest.TestCase):
+    def test_overlapping_feed_ranges_are_merged(self):
+        ranges = pd.DataFrame(
+            {"start_date": [date(2026, 9, 1), date(2026, 9, 2)],
+             "end_date": [date(2026, 9, 7), date(2026, 9, 8)]}
+        )
+        days = app.covered_days(ranges)
+        self.assertEqual(len(days), 8)  # 1 to 8 September, no duplicates
+        self.assertEqual(days.min(), pd.Timestamp("2026-09-01"))
+        self.assertEqual(days.max(), pd.Timestamp("2026-09-08"))
+
+    def test_no_ranges_means_no_covered_days(self):
+        empty = pd.DataFrame({"start_date": [], "end_date": []})
+        self.assertEqual(len(app.covered_days(empty)), 0)
+
+    def test_monthly_counts_only_count_covered_days(self):
+        covered = pd.date_range("2026-03-01", "2026-03-31", freq="D")
+        monthly = app.monthly_counts(sample_frame(), covered)
+        self.assertEqual(list(monthly["approaches"]), [2])  # only the two March rows
+        self.assertEqual(monthly["month"].iloc[0], pd.Timestamp("2026-03-01"))
+
+    def test_uncovered_data_gives_empty_chart_data(self):
+        monthly = app.monthly_counts(sample_frame(), pd.DatetimeIndex([]))
+        self.assertTrue(monthly.empty)
+        self.assertEqual(list(monthly.columns), ["month", "approaches"])
+
+    def test_without_coverage_every_day_is_counted(self):
+        self.assertEqual(int(app.monthly_counts(sample_frame())["approaches"].sum()), 5)
+
+
 if __name__ == "__main__":
     unittest.main()
