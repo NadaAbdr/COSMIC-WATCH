@@ -19,6 +19,11 @@ services:
       timeout: 3s                      # one check may take up to 3 seconds
       retries: 10                      # mark "unhealthy" after 10 failed checks
     restart: unless-stopped            # restart after a crash or reboot
+    deploy:
+      resources:
+        limits:
+          cpus: "2.0"
+          memory: 2G
 
   # ---- Our pipeline ----
   pipeline:
@@ -34,6 +39,11 @@ services:
       SILVER_DIR: /app/data/silver     # ...and where to write the silver CSVs
     volumes:
       - ./data:/app/data               # share the local data/ folder with the container
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: 2G
 
 # Named volume managed by Docker (holds the PostgreSQL files)
 volumes:
