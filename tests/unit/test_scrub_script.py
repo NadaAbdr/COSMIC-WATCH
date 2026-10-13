@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-SCRIPT = Path(__file__).resolve().parents[1] / "scripts" / "scrub_api_key.py"
+SCRIPT = Path(__file__).resolve().parents[2] / "scripts" / "scrub_api_key.py"
 
 
 def run_script(folder):

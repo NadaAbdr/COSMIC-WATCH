@@ -1,5 +1,5 @@
-# Runs on every pull request and on every push to main.
-# Three independent checks: lint, unit tests, and "does the dbt project still parse".
+Runs on every pull request and on every push to main.
+Three independent checks: lint, unit tests, and "does the dbt project still parse".
 name: CI
 
 on:
