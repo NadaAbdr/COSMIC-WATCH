@@ -13,7 +13,7 @@ from unittest.mock import MagicMock
 
 import pandas as pd
 
-APP_PATH = Path(__file__).resolve().parents[1] / "apps" / "streamlit" / "app.py"
+APP_PATH = Path(__file__).resolve().parents[2] / "apps" / "streamlit" / "app.py"
 
 
 def load_app():
