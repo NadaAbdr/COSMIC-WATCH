@@ -85,6 +85,19 @@ def load_data() -> pd.DataFrame:
     return prepare(pd.DataFrame(rows, columns=columns))
 
 
+COVERAGE_QUERY = "select start_date, end_date from raw.neo_feed_responses"
+
+
+@st.cache_data(ttl=600, show_spinner=False)
+def load_coverage() -> pd.DataFrame:
+    """Date ranges for which a full NASA feed was downloaded."""
+    load_dotenv()
+    with connect() as conn, conn.cursor() as cur:
+        cur.execute(COVERAGE_QUERY)
+        rows = cur.fetchall()
+    return pd.DataFrame(rows, columns=["start_date", "end_date"])
+
+
 # --------------------------- calculations --------------------------------
 def apply_filters(df, start, end, bodies, hazardous_only):
     mask = df["close_approach_date"].between(pd.Timestamp(start), pd.Timestamp(end))
@@ -105,7 +118,22 @@ def kpis(df):
     }
 
 
-def monthly_counts(df):
+def covered_days(ranges):
+    """Every calendar day that falls inside at least one downloaded feed range."""
+    if ranges.empty:
+        return pd.DatetimeIndex([])
+    spans = [
+        pd.date_range(pd.Timestamp(start), pd.Timestamp(end), freq="D")
+        for start, end in zip(ranges["start_date"], ranges["end_date"])
+    ]
+    return spans[0].append(spans[1:]).unique().sort_values()
+
+
+def monthly_counts(df, covered=None):
+    """Close approaches per month. With `covered`, only days with a full feed are counted,
+    so every month is measured the same way."""
+    if covered is not None:
+        df = df[df["close_approach_date"].dt.normalize().isin(covered)]
     month = df["close_approach_date"].dt.to_period("M").dt.to_timestamp()
     out = month.value_counts().sort_index().rename_axis("month").reset_index(name="approaches")
     return out
@@ -208,6 +236,13 @@ def main():
         st.info("No close approaches match these filters. Try a wider date range.")
         st.stop()
 
+    try:
+        covered = covered_days(load_coverage())
+    except Exception:  # raw table unreadable: fall back to counting every day
+        covered = None
+    if covered is not None and len(covered) == 0:
+        covered = None
+
     # ---- headline numbers ----
     k = kpis(view)
     c1, c2, c3, c4, c5 = st.columns(5)
@@ -221,11 +256,17 @@ def main():
     left, right = st.columns(2)
     with left:
         st.subheader("Close approaches per month")
-        st.caption(
-            "Months with full NASA feed coverage look much busier than the rest, which only "
-            "include asteroids whose details were fetched. Read this chart as data coverage."
-        )
-        monthly = monthly_counts(view)
+        if covered is not None:
+            st.caption(
+                f"Counts only days fully covered by the NASA feed "
+                f"({covered.min():%d %b %Y} to {covered.max():%d %b %Y}). Other days would look "
+                "empty, because they only include asteroids whose orbits were looked up."
+            )
+        else:
+            st.caption("Coverage information is unavailable, so every day is counted.")
+        monthly = monthly_counts(view, covered)
+        if monthly.empty:
+            st.info("No fully covered days fall inside the selected dates.")
         st.altair_chart(
             alt.Chart(monthly).mark_bar().encode(
                 x=alt.X("month:T", title="Month"),
@@ -283,7 +324,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-  
-    
