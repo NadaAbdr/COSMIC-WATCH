@@ -30,9 +30,9 @@ def run_query(sql_query):
         st.error(f"An error occurred: {e}")
         return pd.DataFrame()
 
-# ==========================================
+
 # 🎛️ SIDEBAR: Filters (الشريط الجانبي للفلاتر مثل الصورة)
-# ==========================================
+
 st.sidebar.title("Filters")
 st.sidebar.markdown("---")
 
@@ -55,9 +55,9 @@ if isinstance(date_range, tuple) and len(date_range) == 2:
 else:
     start_date, end_date = "2025-10-12", "2027-10-12"
 
-# ==========================================
+
 # 🔭 MAIN DASHBOARD AREA
-# ==========================================
+
 st.title("🔭 Cosmic Watch: Asteroid Analytics Dashboard")
 st.markdown("---")
 
@@ -126,9 +126,9 @@ with col_right:
         st.info("No recent data for the last 6 months.")
 
 
-# ==========================================
+
 # 5. Most Dangerous Asteroids (Frequent & Large)
-# ==========================================
+
 st.markdown("### ⚠️ 5. Most Dangerous Asteroids (Frequent)⚠️" )
 
 sql_dangerous = """
