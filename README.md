@@ -158,4 +158,11 @@ A few things broke while we built this. We wrote them down so we remember.
 
 **CI was switched off for a while.** Its file had been commented out in one commit. We turned it back on.
 
+## Team
 
+Built by a team of four.
+
+- [Nada Abdr](https://github.com/NadaAbdr)
+- [Tasneem-MDB](https://github.com/Tasneem-MDB)
+- [ShahadDraim](https://github.com/ShahadDraim)
+- [MUNAYFAH9](https://github.com/MUNAYFAH9)
