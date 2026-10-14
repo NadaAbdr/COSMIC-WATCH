@@ -4,7 +4,22 @@ A data pipeline and dashboard for near-Earth asteroids, built from NASA's open *
 It downloads asteroid data, stores it in PostgreSQL, cleans it with dbt, and shows it in a Streamlit dashboard.
 Built by a team of four. Tickets are tracked in Linear, code lives on GitHub.
 
-## How the data flows
+## Architecture
+
+**The big picture**
+
+![Level 1: the big picture](docs/architecture/architecture_level1.png)
+
+**How the data moves from NASA to the dashboard** (follow the numbers)
+
+![Level 2: data flow](docs/architecture/architecture_level2.png)
+
+**Inside the daily Airflow DAG**
+
+![Level 3: the daily_neo DAG](docs/architecture/architecture_level3.png)
+
+<details>
+<summary>The same flow as text</summary>
 
 ```
 NASA NeoWs API
@@ -23,6 +38,8 @@ PostgreSQL, schema analytics
    v
 Streamlit dashboard        apps/streamlit/app.py
 ```
+
+</details>
 
 An Airflow DAG (`dags/daily_neo.py`, named `daily_neo`) runs extract, details, load and dbt every day.
 
@@ -114,3 +131,31 @@ git branch -d short-branch-name
 - Check `git status` before every commit. If many files under `data/raw` show as modified, run `git restore data/raw` unless you meant to change them.
 - If a pull request shows red checks, open the failing step, read the message, fix it on the same branch and push again.
 - Stuck in a merge editor (VS Code or vim)? Ask the team before guessing.
+
+## What went wrong along the way
+
+A few things broke while we built this. We wrote them down so we remember.
+
+**Our NASA key ended up in the raw files.** NASA sends the request link back with the key inside it, so it got saved with the data. We cleaned the files with `scripts/scrub_api_key.py`, the loader now takes the key out before saving, and we use a new key that only lives in `.env`.
+
+**Pasting the password lines into the terminal did nothing.** They belong in the `.env` file, not the terminal.
+
+**pytest failed on Windows.** It said there was no module called `fcntl`, which only exists on Linux and Mac. We added `src/pipeline/proclock.py`, which works on both.
+
+**Lint failed on a pull request.** The reason was an empty notebook file, which ruff cannot read. We put a valid blank notebook in its place.
+
+**dbt would not run.** Our tests use a newer syntax that needs dbt 1.10 or higher, and one test was indented wrong. We fixed the test and raised the version in `pyproject.toml`.
+
+**We got stuck in a text editor after a git pull.** Git opened it to ask for a merge message. Saving and closing it got us out.
+
+**Lots of files in `data/raw` showed as changed.** Running the pipeline on our own computers rewrites them, so we restore them and keep them out of our commits.
+
+**`app.py` was empty on one teammate's computer.** The file on GitHub was fine, so it was only her local copy.
+
+**A pull request had a merge conflict.** Two of us changed `tests/unit/test_dashboard.py`. We merged `main` into the branch, fixed the file in VS Code, ran the tests and pushed.
+
+**The dashboard looked different on other computers.** Everyone runs it on their own computer with their own database, so it only matches if you have the latest code and the same data loaded.
+
+**CI was switched off for a while.** Its file had been commented out in one commit. We turned it back on.
+
+
